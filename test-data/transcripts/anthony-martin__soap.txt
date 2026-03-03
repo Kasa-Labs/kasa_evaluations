@@ -1,0 +1,53 @@
+Dr. Chen: Good morning, Anthony. It's good to see you again. I see we're celebrating a milestone—you turned 30 last month, right?
+
+Anthony Martin: Good morning, Dr. Chen. Yeah, the big three-oh. I’m trying not to think about it too much, but thanks.
+
+Dr. Chen: Well, you look well. Your vitals are solid today. Blood pressure is 118 over 76, heart rate is 72, and your weight is stable at 175 pounds. How have you been feeling generally since our last check-up three months ago?
+
+Anthony Martin: I've been okay. Work has been pretty stressful lately, lots of deadlines, so my eating schedule has been a little erratic. I feel like my numbers have been bouncing around more than usual.
+
+Dr. Chen: I noticed that on your labs. Your A1c came back at 7.4% today, which is up slightly from 6.9% last time. Let's pull up the data from your Dexcom and your t:slim pump. Looking at the ambulatory glucose profile here... yes, I see the variability. Your time-in-range has dropped to about 65%.
+
+Anthony Martin: Yeah, I figured. I’ve been having these annoying highs after lunch, and then I rage-bolus to correct it, and I crash before dinner.
+
+Dr. Chen: Exactly. I see a pattern of post-prandial hyperglycemia around 1 PM, followed by hypoglycemia around 5 PM. We might need to adjust your insulin-to-carb ratio for that midday block. Currently, you're set at 1 unit for 10 grams of carbs. Let's tighten that to 1 unit for 8 grams for the lunch window and see if that smooths out the spike so you don't have to over-correct later. Are you still using Humalog in the pump?
+
+Anthony Martin: Yes, Humalog U-100.
+
+Dr. Chen: Okay. And how are your infusion sites? Any irritation or hard lumps?
+
+Anthony Martin: A little bit on my right side. I try to rotate, but I definitely favor the right abdomen.
+
+Dr. Chen: Let me take a look. If you could just lift your shirt... okay. Yeah, I feel some mild lipohypertrophy right here near the navel on the right. That scar tissue can affect insulin absorption, which might explain some of the erratic numbers you're seeing. You really need to give this area a break. Try moving to your flanks or even the upper buttocks for a few weeks.
+
+Anthony Martin: Alright, I'll switch to the left flank starting with the next site change.
+
+Dr. Chen: Good. Now, let's do a quick foot exam. Take off your shoes and socks, please. Any numbness, tingling, or burning sensation in your toes?
+
+Anthony Martin: No, they feel normal.
+
+Dr. Chen: (performing monofilament test) Can you feel this?
+
+Anthony Martin: Yes.
+
+Dr. Chen: And here?
+
+Anthony Martin: Yes.
+
+Dr. Chen: Great. Pulses are strong, dorsal and posterior tibial. No sores or calluses. Keep checking them daily. Regarding your other meds, are you still taking the Lisinopril 5mg daily for renal protection?
+
+Anthony Martin: Yep, every morning. No issues with that.
+
+Dr. Chen: Excellent. Your kidney function labs—creatinine and microalbumin—look pristine, so the Lisinopril is doing its job protecting your kidneys. I also want to make sure your emergency kit is up to date. Do you have a current glucagon prescription?
+
+Anthony Martin: I have the Baqsimi nasal spray, but I think it expires next month.
+
+Dr. Chen: Good catch. I’ll send in a refill for the Baqsimi, along with the Humalog and the Lisinopril. I also want you to see Ophthalmology this year. Have you had your dilated eye exam for retinopathy screening yet?
+
+Anthony Martin: Not yet. I have an appointment scheduled for next Tuesday, actually.
+
+Dr. Chen: Perfect. Make sure they send us the report. So, the plan for today: We are adjusting the pump settings for the lunch timeframe. Avoid the right abdomen for infusion sites. Continue the Lisinopril. I want you to upload your pump data in 4 weeks so I can review those midday numbers remotely. If the lows persist, call the office.
+
+Anthony Martin: Sounds like a plan. Thanks, Dr. Chen.
+
+Dr. Chen: You're welcome, Anthony. Take care.

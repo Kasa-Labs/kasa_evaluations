@@ -1,0 +1,25 @@
+**Progress Note**
+Date: [Date of visit]
+Interval History: [Changes since last visit]
+
+**Subjective**
+[Patient's report of symptoms, response to treatment, new concerns]
+
+**Objective**
+**Vital Signs:**
+BP: [Blood pressure]
+HR: [Heart rate]
+Temp: [Temperature]
+Weight: [If relevant]
+
+Physical Exam: [Focused exam relevant to current problems]
+
+Labs/Studies: [Recent results if applicable]
+
+**Assessment**
+[Current status of each problem with stability/improvement/worsening]
+
+**Plan**
+[Continue, adjust, or discontinue treatments]
+[New interventions]
+[Follow-up timing and conditions]

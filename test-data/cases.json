@@ -1,0 +1,701 @@
+[
+  {
+    "id": "james-anderson__soap",
+    "patient": {
+      "firstName": "James",
+      "lastName": "Anderson",
+      "dateOfBirth": "1965-03-12",
+      "gender": "Male",
+      "context": "Type 2 diabetes, hypertension. Regular follow-ups for medication management."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Chen: Good morning, James. Good to see you again. Happy 60th birthday, by the way—I see you celebrated that back in March.\n\nJames Anderson: Thank you, Doctor. Yeah, it was a big milestone. Feeling it a bit in the knees, but otherwise hanging in there.\n\nDr. Chen: Glad to hear it. So, we're here for your quarterly follow-up for the diabetes and blood pressure. How have you been feeling generally? Any dizziness, chest pain, or shortness of breath?\n\nJames Anderson: No, nothing like that. Just the usual fatigue in the afternoons sometimes. And I've noticed that tingling in my toes a little more often at night, mostly when I'm trying to sleep.\n\nDr. Chen: Okay, we'll take a look at your feet in a moment. That tingling could be related to the blood sugar levels. Let's look at your numbers. The nurse took your blood pressure, it's 138 over 88 today. Is that consistent with what you're seeing at home?\n\nJames Anderson: It's a little higher than usual. At home, I'm usually around 130 over 80. I might have rushed getting here from work, traffic was terrible.\n\nDr. Chen: That happens. We'll recheck it before you leave. Now, looking at your labs from last week, your Hemoglobin A1c came back at 7.4%. It was 6.9% six months ago. Any thoughts on what changed?\n\nJames Anderson: Yeah, I figured it might be up. Since the birthday, there's been a lot of cake, and honestly, I haven't been as strict with the carbs. My wife has been trying to get me back on the salads, but it's tough with my work schedule.\n\nDr. Chen: I understand, celebrations happen. But we want to get that back under 7.0 to protect your kidneys and eyes, and to help with that neuropathy in your toes. Are you taking the Metformin regularly?\n\nJames Anderson: Yes, 1000 milligrams twice a day with breakfast and dinner. I never miss it.\n\nDr. Chen: Good. And the Lisinopril?\n\nJames Anderson: That's the 20 milligrams, right? Yeah, every morning.\n\nDr. Chen: Correct. And are you still taking the Atorvastatin for cholesterol?\n\nJames Anderson: Yes, the 40 milligrams at bedtime.\n\nDr. Chen: Excellent. Your LDL looks great, by the way, down to 85. So the statin is doing its job. Given the A1c rise, I'm not going to change your medication yet. I want to give you three months to tighten up the diet. Cut back on the processed sugars, white bread, and pasta. If it's still above 7.5 next time, we might discuss adding a medication like Empagliflozin.\n\nJames Anderson: Okay, I really don't want another pill if I can avoid it. I'll get back on the wagon.\n\nDr. Chen: That's the spirit. Let me listen to your heart and lungs. [Pause] Lungs are clear bilaterally, heart rate is regular, no murmurs. Now, take off your left shoe and sock, please. I'm going to check sensation.\n\nJames Anderson: Alright.\n\nDr. Chen: Can you feel this filament?\n\nJames Anderson: Yes, but it feels a bit dull near the big toe compared to the heel.\n\nDr. Chen: Okay. You have some mild peripheral neuropathy developing. It's crucial you check your feet daily for any cuts, sores, or redness that isn't healing. Tight glucose control will help stop this from getting worse.\n\nJames Anderson: Understood. I'll be careful.\n\nDr. Chen: I'm sending refills for the Metformin, Lisinopril, and Atorvastatin to your pharmacy. I also want you to schedule your annual diabetic eye exam; I don't see a report in your chart for this year.\n\nJames Anderson: Oh right, I forgot to book that. I'll call the ophthalmologist today.\n\nDr. Chen: Perfect. Let's recheck that blood pressure... Okay, 132 over 82. Much better. Keep logging your home readings. I'll see you in three months, James.\n\nJames Anderson: Thanks, Dr. Chen. See you then.",
+    "expectedEntities": {
+      "drugs": [
+        "Metformin",
+        "Lisinopril",
+        "Atorvastatin",
+        "Empagliflozin"
+      ],
+      "conditions": [
+        "Type 2 diabetes",
+        "Hypertension",
+        "Hyperlipidemia",
+        "Peripheral neuropathy",
+        "Fatigue"
+      ]
+    }
+  },
+  {
+    "id": "linda-wilson__progress",
+    "patient": {
+      "firstName": "Linda",
+      "lastName": "Wilson",
+      "dateOfBirth": "1975-06-19",
+      "gender": "Female",
+      "context": "Hypothyroidism. On levothyroxine, annual thyroid function tests."
+    },
+    "templateId": "progress",
+    "transcript": "Doctor: Good morning, Linda. It is good to see you again. Happy belated birthday—I see you just turned 50 last week.\n\nLinda Wilson: Thank you, Doctor. Yes, it was a big milestone. I’m trying to embrace the new decade.\n\nDoctor: That’s the right attitude. We are here for your annual thyroid follow-up today. I’ve reviewed the blood work you had drawn at the lab last Tuesday, but before we go over the numbers, I want to hear how you are feeling. How have your energy levels been?\n\nLinda Wilson: To be honest, I’ve been dragging a bit lately. I thought it might just be age or work stress, but even after a full night's sleep, I wake up feeling tired. By 2:00 PM, I feel like I need a nap.\n\nDoctor: I see. And how long has this fatigue been noticeable?\n\nLinda Wilson: Probably about three or four months now. It’s been gradual.\n\nDoctor: Have you noticed any other changes? Specifically regarding your weight, hair, or skin?\n\nLinda Wilson: Yes, actually. My skin has been incredibly dry, mostly on my arms and legs. And I’ve gained about eight pounds since my last visit, even though my diet hasn't really changed. It’s been frustrating.\n\nDoctor: I can imagine. What about temperature sensitivity? Do you feel colder than usual?\n\nLinda Wilson: Definitely. My husband keeps the house at 72, and I’m sitting there in a sweater and a blanket.\n\nDoctor: Okay. Let's review your medication adherence. You are currently prescribed Levothyroxine 75 micrograms daily. How are you taking that?\n\nLinda Wilson: I take it first thing in the morning, right when I wake up, with water.\n\nDoctor: Do you eat immediately after?\n\nLinda Wilson: No, I usually walk the dog and shower, so it’s at least 45 minutes to an hour before I have breakfast or coffee.\n\nDoctor: Excellent. That’s exactly how you should take it. Do you take any other supplements?\n\nLinda Wilson: Just a multivitamin and Vitamin D, but I take those with dinner.\n\nDoctor: Good, so no interference with absorption there. Let's look at your vitals. Your blood pressure is 118/76, which is great. Heart rate is 62—a little on the lower side of normal. Now, looking at your labs: your TSH level came back at 7.4 mIU/L, and your Free T4 is 0.8 ng/dL.\n\nLinda Wilson: That TSH sounds high. It was around 2 last year, right?\n\nDoctor: Exactly. A TSH of 7.4 indicates that your hypothyroidism is not currently well-controlled on the current dose. Your pituitary gland is working overtime trying to stimulate the thyroid. This explains the fatigue, the weight gain, the dry skin, and the cold intolerance. You are clinically hypothyroid right now.\n\nLinda Wilson: Well, at least there is a reason for how I'm feeling. What do we do?\n\nDoctor: We need to increase your dosage. The 75 micrograms isn't quite enough anymore. I am going to bump you up to Levothyroxine 88 micrograms daily. \n\nLinda Wilson: Okay.\n\nDoctor: It’s a small increase, but it should be enough to get your TSH back down into the ideal range of 0.5 to 2.5. I'm sending the prescription to your pharmacy now. \n\nLinda Wilson: Should I finish the old bottle first?\n\nDoctor: How many do you have left?\n\nLinda Wilson: Maybe a week's worth.\n\nDoctor: Go ahead and start the new 88 microgram dose tomorrow morning. You can hold onto the old ones as a backup just in case, but let's get you on the therapeutic dose immediately so you can start feeling better.\n\nLinda Wilson: Sounds good. When will I feel a difference?\n\nDoctor: You might notice a little more energy in about two weeks, but it takes a full 6 to 8 weeks for the levels to stabilize in your blood. Because of this change, I need to see you back sooner than a year. I want you to get lab work done again in 8 weeks.\n\nLinda Wilson: Okay, I can do that.\n\nDoctor: We need to make sure we don't swing you too far the other way into hyperthyroidism. If you start feeling a racing heart, anxiety, or trouble sleeping, call me immediately. Otherwise, I'll see you in two months to review the new labs.\n\nLinda Wilson: Thank you, Doctor. I really hope this helps with the energy.\n\nDoctor: I am confident it will. Take care, Linda.",
+    "expectedEntities": {
+      "drugs": [
+        "Levothyroxine",
+        "multivitamin",
+        "Vitamin D"
+      ],
+      "conditions": [
+        "Hypothyroidism",
+        "fatigue",
+        "dry skin",
+        "weight gain",
+        "cold intolerance",
+        "Hyperthyroidism"
+      ]
+    }
+  },
+  {
+    "id": "anthony-martin__soap",
+    "patient": {
+      "firstName": "Anthony",
+      "lastName": "Martin",
+      "dateOfBirth": "1995-11-14",
+      "gender": "Male",
+      "context": "Type 1 diabetes since childhood. Insulin pump user, CGM monitoring."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Chen: Good morning, Anthony. It's good to see you again. I see we're celebrating a milestone—you turned 30 last month, right?\n\nAnthony Martin: Good morning, Dr. Chen. Yeah, the big three-oh. I’m trying not to think about it too much, but thanks.\n\nDr. Chen: Well, you look well. Your vitals are solid today. Blood pressure is 118 over 76, heart rate is 72, and your weight is stable at 175 pounds. How have you been feeling generally since our last check-up three months ago?\n\nAnthony Martin: I've been okay. Work has been pretty stressful lately, lots of deadlines, so my eating schedule has been a little erratic. I feel like my numbers have been bouncing around more than usual.\n\nDr. Chen: I noticed that on your labs. Your A1c came back at 7.4% today, which is up slightly from 6.9% last time. Let's pull up the data from your Dexcom and your t:slim pump. Looking at the ambulatory glucose profile here... yes, I see the variability. Your time-in-range has dropped to about 65%.\n\nAnthony Martin: Yeah, I figured. I’ve been having these annoying highs after lunch, and then I rage-bolus to correct it, and I crash before dinner.\n\nDr. Chen: Exactly. I see a pattern of post-prandial hyperglycemia around 1 PM, followed by hypoglycemia around 5 PM. We might need to adjust your insulin-to-carb ratio for that midday block. Currently, you're set at 1 unit for 10 grams of carbs. Let's tighten that to 1 unit for 8 grams for the lunch window and see if that smooths out the spike so you don't have to over-correct later. Are you still using Humalog in the pump?\n\nAnthony Martin: Yes, Humalog U-100.\n\nDr. Chen: Okay. And how are your infusion sites? Any irritation or hard lumps?\n\nAnthony Martin: A little bit on my right side. I try to rotate, but I definitely favor the right abdomen.\n\nDr. Chen: Let me take a look. If you could just lift your shirt... okay. Yeah, I feel some mild lipohypertrophy right here near the navel on the right. That scar tissue can affect insulin absorption, which might explain some of the erratic numbers you're seeing. You really need to give this area a break. Try moving to your flanks or even the upper buttocks for a few weeks.\n\nAnthony Martin: Alright, I'll switch to the left flank starting with the next site change.\n\nDr. Chen: Good. Now, let's do a quick foot exam. Take off your shoes and socks, please. Any numbness, tingling, or burning sensation in your toes?\n\nAnthony Martin: No, they feel normal.\n\nDr. Chen: (performing monofilament test) Can you feel this?\n\nAnthony Martin: Yes.\n\nDr. Chen: And here?\n\nAnthony Martin: Yes.\n\nDr. Chen: Great. Pulses are strong, dorsal and posterior tibial. No sores or calluses. Keep checking them daily. Regarding your other meds, are you still taking the Lisinopril 5mg daily for renal protection?\n\nAnthony Martin: Yep, every morning. No issues with that.\n\nDr. Chen: Excellent. Your kidney function labs—creatinine and microalbumin—look pristine, so the Lisinopril is doing its job protecting your kidneys. I also want to make sure your emergency kit is up to date. Do you have a current glucagon prescription?\n\nAnthony Martin: I have the Baqsimi nasal spray, but I think it expires next month.\n\nDr. Chen: Good catch. I’ll send in a refill for the Baqsimi, along with the Humalog and the Lisinopril. I also want you to see Ophthalmology this year. Have you had your dilated eye exam for retinopathy screening yet?\n\nAnthony Martin: Not yet. I have an appointment scheduled for next Tuesday, actually.\n\nDr. Chen: Perfect. Make sure they send us the report. So, the plan for today: We are adjusting the pump settings for the lunch timeframe. Avoid the right abdomen for infusion sites. Continue the Lisinopril. I want you to upload your pump data in 4 weeks so I can review those midday numbers remotely. If the lows persist, call the office.\n\nAnthony Martin: Sounds like a plan. Thanks, Dr. Chen.\n\nDr. Chen: You're welcome, Anthony. Take care.",
+    "expectedEntities": {
+      "drugs": [
+        "Humalog",
+        "Insulin Lispro",
+        "Lisinopril",
+        "Baqsimi",
+        "Glucagon"
+      ],
+      "conditions": [
+        "Type 1 Diabetes Mellitus",
+        "Hyperglycemia",
+        "Hypoglycemia",
+        "Lipohypertrophy",
+        "Diabetic Retinopathy"
+      ]
+    }
+  },
+  {
+    "id": "betty-lewis__soap",
+    "patient": {
+      "firstName": "Betty",
+      "lastName": "Lewis",
+      "dateOfBirth": "1947-08-28",
+      "gender": "Female",
+      "context": "Atrial fibrillation. On warfarin, regular INR monitoring."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Mrs. Lewis. It is good to see you again. How have you been feeling since our last visit regarding your heart rhythm?\n\nBetty Lewis: Good morning, Dr. Evans. I’ve been doing fairly well, I think. I haven't noticed any fluttering in my chest lately, which is a relief.\n\nDr. Evans: That is excellent news. I see here in your chart that you turned 78 back in August. Happy belated birthday.\n\nBetty Lewis: Thank you, Doctor. It was a quiet one, just family.\n\nDr. Evans: Those are often the best kind. Now, we need to go over your INR results and your medication management for the atrial fibrillation. Your blood draw from this morning came back with an INR of 1.8. That is slightly sub-therapeutic; we really want to keep you in that 2.0 to 3.0 range to prevent clots.\n\nBetty Lewis: Oh dear. Is that dangerous? I’ve been taking my pills exactly as written.\n\nDr. Evans: It's not an emergency, but it needs adjustment. You are currently taking Warfarin 5 milligrams daily, correct?\n\nBetty Lewis: Yes, the little peach-colored ones. Every evening at dinner.\n\nDr. Evans: Have there been any changes in your diet recently? Specifically, have you been eating more leafy greens—spinach, kale, or broccoli?\n\nBetty Lewis: Well, actually, yes. My daughter has been coming over to cook for me, and she’s big on these spinach salads. I’ve had them for lunch almost every day for the last week.\n\nDr. Evans: That explains it. Spinach is high in Vitamin K, which counters the effects of Warfarin, causing your INR to drop. You don't have to stop eating it, but consistency is key. If you suddenly increase the amount, the medicine doesn't work as well.\n\nBetty Lewis: I didn't realize it would make that much of a difference. I'll cut back to my usual amount.\n\nDr. Evans: That would be helpful. Before we decide on the dose change, I want to run through a few questions. Have you noticed any unusual bruising, bleeding gums when brushing, or nosebleeds?\n\nBetty Lewis: No, nothing like that.\n\nDr. Evans: Any dark or tarry stools? Or blood in the urine?\n\nBetty Lewis: No, everything is normal there.\n\nDr. Evans: Okay. And are you still taking the Metoprolol Succinate 25mg for the rate control?\n\nBetty Lewis: Yes, once a day in the morning.\n\nDr. Evans: And the Atorvastatin for cholesterol?\n\nBetty Lewis: Yes, 20 milligrams at bedtime.\n\nDr. Evans: Have you taken any over-the-counter medications? Ibuprofen, aspirin, or nutritional supplements?\n\nBetty Lewis: Just Tylenol occasionally for my knee pain. I know I’m not supposed to take Advil.\n\nDr. Evans: Exactly right. Acetaminophen is safer. Let's do a quick physical exam. I'm going to listen to your heart and lungs.\n\n(Sound of stethoscope movement)\n\nDr. Evans: Lungs are clear to auscultation bilaterally. No wheezing or crackles. Listening to the heart now... Okay, the rhythm is irregularly irregular, which is expected with your Afib, but the rate is well controlled. Resting heart rate is 72. Blood pressure is 128 over 76. That looks good.\n\nBetty Lewis: That’s good to hear.\n\nDr. Evans: I’m checking your ankles for swelling... trace edema, but nothing concerning. No signs of deep vein thrombosis.\n\nBetty Lewis: So, what do we do about the Warfarin?\n\nDr. Evans: Here is the plan. I want you to take an extra half-tablet—so 7.5 milligrams total—tonight and tomorrow night. Then go back to your usual 5 milligrams. I need you to come back in for an INR check in one week, next Tuesday. And try to keep the spinach intake steady, like it was before the salads started.\n\nBetty Lewis: Okay, extra half pill tonight and tomorrow, then back to normal. Check blood next Tuesday.\n\nDr. Evans: Precisely. If you notice any significant bruising or bleeding before then, call the office immediately. Do you have any other questions for me, Betty?\n\nBetty Lewis: No, I think that covers it. Thank you, Dr. Evans.\n\nDr. Evans: You're welcome. See you next week.",
+    "expectedEntities": {
+      "drugs": [
+        "Warfarin",
+        "Metoprolol Succinate",
+        "Atorvastatin",
+        "Tylenol",
+        "Acetaminophen",
+        "Advil",
+        "Ibuprofen",
+        "Aspirin"
+      ],
+      "conditions": [
+        "Atrial fibrillation",
+        "Afib",
+        "Hyperlipidemia",
+        "Hypertension",
+        "Edema",
+        "Deep vein thrombosis"
+      ]
+    }
+  },
+  {
+    "id": "george-king__soap",
+    "patient": {
+      "firstName": "George",
+      "lastName": "King",
+      "dateOfBirth": "1961-03-08",
+      "gender": "Male",
+      "context": "Peripheral artery disease. Antiplatelet therapy, smoking cessation."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Mr. King. Good to see you again. How have you been feeling since our last visit three months ago?\n\nGeorge King: Well, Doctor, I'm hanging in there. The legs are still giving me some trouble, though. I'm 64 now, and I feel like I'm slowing down faster than I should be.\n\nDr. Evans: I understand. Let's talk about the legs. Are you still experiencing that cramping pain in your calves when you walk?\n\nGeorge King: Yeah, it's mostly the right calf. It starts acting up after I walk about two blocks or so. It feels tight, like a charley horse that won't let go until I stop moving.\n\nDr. Evans: And does it resolve quickly once you rest?\n\nGeorge King: Usually takes about five minutes of sitting on a bench, and then I can go again. But it's frustrating. I used to be able to walk the dog around the whole park.\n\nDr. Evans: That sounds like classic intermittent claudication, consistent with your Peripheral Artery Disease diagnosis. Have you noticed any pain while you're resting, specifically at night in bed? Do your feet hurt when they are elevated?\n\nGeorge King: No, thankfully. Once I'm off my feet, the pain is gone. I sleep fine.\n\nDr. Evans: That is a very good sign. It means the blood flow isn't critically compromised yet. Now, George, we have to touch on the most important factor here. How is the smoking cessation going?\n\nGeorge King: I know, I know. I’m trying. I was at a pack a day, and now I’m down to maybe five or six cigarettes. It's hard, Doc. I've been smoking since I was eighteen.\n\nDr. Evans: I give you credit for cutting down, but with PAD, every single cigarette causes vasoconstriction—it tightens those blood vessels and makes it harder for blood to get to your legs. We really need to get you to zero. Are you using the nicotine patches we discussed?\n\nGeorge King: I forget to put them on sometimes. But I'll try harder.\n\nDr. Evans: Please do. It’s the single best thing you can do to save your legs. Let's review your medications. You are taking the Clopidogrel 75 milligrams daily, correct?\n\nGeorge King: The Plavix? Yes, I take that every morning with my breakfast. And the baby Aspirin.\n\nDr. Evans: Excellent. That dual antiplatelet therapy is crucial to prevent clots. I also see you're on Atorvastatin 80 milligrams for your cholesterol. Any muscle aches from that?\n\nGeorge King: No, that one seems fine.\n\nDr. Evans: Good. High-intensity statins stabilize the plaque in your arteries. I'm going to take a look at your feet now. Please slip off your shoes and socks.\n\n[Sound of movement]\n\nDr. Evans: Okay... skin looks a bit shiny and hairless on the lower shins, which is typical for PAD. No open sores or ulcers, which is excellent. I'm checking the pulses now. The dorsalis pedis is palpable but weak on the right, about 1-plus. The posterior tibial is also diminished. Capillary refill is about 3 seconds. Your feet are a little cool to the touch, but not cold.\n\nGeorge King: Is that bad?\n\nDr. Evans: It's stable. It hasn't gotten significantly worse since last time. Here is the plan: We are going to continue the Clopidogrel and Aspirin. I want you to really focus on the walking program. Walk until the pain is moderate, stop and rest until it goes away, and then walk again. This helps build collateral circulation—new pathways for blood flow.\n\nGeorge King: Walk through the pain?\n\nDr. Evans: Walk until it hurts, stop, recover, repeat. Do that for 30 minutes a day. And George, we need to get serious about quitting the cigarettes completely. I'm going to refill your prescription for the patches. I want to see you back in three months, but call me immediately if you develop any sores on your feet that won't heal or if you have pain while resting.\n\nGeorge King: Alright, Doctor. I'll stick with it.\n\nDr. Evans: Take care, Mr. King.",
+    "expectedEntities": {
+      "drugs": [
+        "Clopidogrel",
+        "Plavix",
+        "Aspirin",
+        "Atorvastatin",
+        "Nicotine patches"
+      ],
+      "conditions": [
+        "Peripheral Artery Disease",
+        "PAD",
+        "Intermittent claudication",
+        "Tobacco use disorder",
+        "Hyperlipidemia"
+      ]
+    }
+  },
+  {
+    "id": "michelle-baker__soap",
+    "patient": {
+      "firstName": "Michelle",
+      "lastName": "Baker",
+      "dateOfBirth": "1986-01-09",
+      "gender": "Female",
+      "context": "Iron deficiency anemia. Oral iron supplements, dietary counseling."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Michelle. It’s good to see you. I see here we are following up on your anemia today. How have you been feeling since our last visit three months ago?\n\nMichelle Baker: Hi, Dr. Evans. Honestly, I’m feeling quite a bit better. I'm not nearly as exhausted as I was back in January. I used to need a nap every afternoon just to get through the day, but now I can usually power through until bedtime.\n\nDr. Evans: That is excellent to hear. Improved energy levels are usually the first sign that the treatment is working. How about the shortness of breath you mentioned? You said you were getting winded climbing the stairs to your apartment.\n\nMichelle Baker: It’s still there a little bit if I rush, but I can carry groceries up the stairs now without feeling like I’m going to pass out. So, definitely an improvement.\n\nDr. Evans: Good. And the ice cravings? The pica?\n\nMichelle Baker: Gone, thankfully. I haven't had the urge to chew ice in weeks. My husband is relieved; the crunching was driving him crazy.\n\nDr. Evans: That’s a very specific symptom of iron deficiency, so the fact that it resolved is a great clinical sign. Let’s talk about the medication. You are taking the Ferrous Sulfate 325 mg, correct?\n\nMichelle Baker: Yes, 325 milligrams, once a day.\n\nDr. Evans: Have you been able to take it consistently?\n\nMichelle Baker: mostly. I missed maybe two or three days when I went out of town and forgot the bottle, but otherwise, I take it every morning.\n\nDr. Evans: How are you tolerating it? We discussed that it can be tough on the stomach.\n\nMichelle Baker: It was rough at first. I had some nausea and pretty bad constipation for the first two weeks. I almost stopped taking it.\n\nDr. Evans: I'm glad you didn't. Did you try the stool softener we discussed?\n\nMichelle Baker: Yes, I bought some Colace, and that helped. I also started drinking a lot more water. The nausea went away once I started taking the pill with a little bit of food, although I know you said an empty stomach is better.\n\nDr. Evans: Ideally, yes, empty stomach is best for absorption. However, if taking it with a small amount of food helps you stay compliant, that is better than not taking it at all. Just avoid dairy or calcium supplements within two hours of the iron. Are you still taking it with orange juice?\n\nMichelle Baker: Yes, I drink a small glass of OJ with it every time. You said the Vitamin C helps.\n\nDr. Evans: Exactly. It creates an acidic environment that helps your body absorb the iron. Now, let’s look at your labs from yesterday. Your Hemoglobin has come up from 9.2 to 11.5. That is fantastic progress. It’s not quite in the normal range yet—we want you above 12—but it’s a big jump.\n\nMichelle Baker: Oh, that’s a relief.\n\nDr. Evans: Your Ferritin, which measures your iron stores, is up to 18 ng/mL. It was at 4 previously. This is still on the lower side, which explains why you aren't back to 100% energy yet, but it’s moving in the right direction. It takes a long time to refill those iron stores.\n\nMichelle Baker: So, do I need to keep taking the pills?\n\nDr. Evans: Yes, Michelle. I want you to continue the Ferrous Sulfate 325 mg daily for at least another three months. If the constipation flares up again, keep using the docusate sodium. I also want to briefly touch on diet again. How has that been going?\n\nMichelle Baker: I’m trying. I’m eating red meat twice a week, usually lean beef. And I’ve been making salads with spinach instead of iceberg lettuce. I also started eating fortified cereal for breakfast.\n\nDr. Evans: That sounds perfect. The heme iron from the meat is the easiest for your body to use, but the spinach and fortified grains help too. Just remember, tea and coffee can block iron absorption, so try to have those between meals rather than with your iron-rich meals.\n\nMichelle Baker: Okay, I didn't know that about coffee. I’ll watch out for that.\n\nDr. Evans: Great. Let's listen to your heart and lungs really quick... (Sounds of movement)... Deep breath... Good. Heart rate is 78, regular rhythm. No murmurs. Lungs are clear. Your conjunctiva—the inner eyelid—looks much pinker than last time. You were very pale before.\n\nMichelle Baker: I feel like I have my color back too.\n\nDr. Evans: You certainly do. Okay, the plan is simple: continue the iron supplements, keep up the dietary changes, and we will repeat the CBC and Ferritin panel in 3 months. If you start feeling fatigued again or have any black, tarry stools unrelated to the iron, call me immediately.\n\nMichelle Baker: Will do. Thanks, Dr. Evans.",
+    "expectedEntities": {
+      "drugs": [
+        "Ferrous Sulfate",
+        "Colace",
+        "Docusate sodium",
+        "Vitamin C"
+      ],
+      "conditions": [
+        "Iron deficiency anemia",
+        "Fatigue",
+        "Shortness of breath",
+        "Pica",
+        "Constipation",
+        "Nausea"
+      ]
+    }
+  },
+  {
+    "id": "gary-turner__progress",
+    "patient": {
+      "firstName": "Gary",
+      "lastName": "Turner",
+      "dateOfBirth": "1967-12-05",
+      "gender": "Male",
+      "context": "Hepatitis C, treated and cured. Annual liver function monitoring."
+    },
+    "templateId": "progress",
+    "transcript": "Dr. Aris: Good morning, Gary. Good to see you again. I see we’re celebrating a birthday soon, you'll be turning 59 in December?\n\nGary Turner: That’s right, Dr. Aris. Holding steady at 58 for a few more months. Feeling pretty good, honestly.\n\nDr. Aris: Glad to hear it. Today is our annual follow-up to monitor your liver function following your Hepatitis C cure. It’s been, what, four years now since you finished treatment?\n\nGary Turner: Yeah, about four years since I finished the Epclusa. Best thing I ever did.\n\nDr. Aris: Absolutely. I pulled up your labs from earlier this week. The great news is that your HCV RNA quantitative test remains undetectable. That means you have maintained your Sustained Virologic Response. You are still officially cured of the virus.\n\nGary Turner: That’s always a relief to hear. I still worry it might come back.\n\nDr. Aris: Reinfection is only possible if you are exposed to the virus again through blood-to-blood contact. Spontaneous recurrence is virtually unheard of. Now, let’s look at the liver enzymes. Your ALT is 29 and AST is 25. These are perfectly within the normal range. Your platelets are 180, which is good; it suggests we aren't seeing signs of significant portal hypertension or scarring progression.\n\nGary Turner: So, no cirrhosis?\n\nDr. Aris: Based on your last elastography scan and these numbers, you have some mild fibrosis—scarring—from the years you had the virus, but you do not have cirrhosis. However, because you had the infection for a long time, we still need to be vigilant. I noticed on your chart you're still taking Lisinopril 10mg for blood pressure and Atorvastatin 20mg for cholesterol?\n\nGary Turner: Yes, taking those every morning. My GP actually bumped the Atorvastatin up to 20mg last month because my LDL was creeping up.\n\nDr. Aris: That’s fine. Statins are generally safe for the liver and can actually be protective. I do want to ask about alcohol use. Be honest with me, Gary.\n\nGary Turner: I’ll have a beer or two during the football game on Sundays. Nothing heavy. I know I shouldn't.\n\nDr. Aris: With the history of Hep C and the mild scarring we know is there, zero alcohol is really the gold standard. Alcohol is a direct toxin to the liver cells. Plus, the ultrasound showed some mild fatty infiltration—hepatic steatosis. Alcohol contributes to that, as does diet.\n\nGary Turner: I've been trying to cut down on the fried stuff. I’ve put on a few pounds around the middle.\n\nDr. Aris: Weight loss will help the fatty liver significantly. I’d like you to aim for losing about 5 to 10 pounds before our next visit. Also, for pain relief, are you taking anything? Headaches, joint pain?\n\nGary Turner: Just Tylenol occasionally. I stay away from Advil like you told me.\n\nDr. Aris: Good. Ibuprofen and other NSAIDs can cause bleeding issues or kidney stress, which we want to avoid. Acetaminophen is safe, just keep it under 2,000 milligrams a day. Do not mix it with alcohol.\n\nGary Turner: Understood.\n\nDr. Aris: Okay, I’m going to order a surveillance ultrasound for six months from now just to screen for hepatocellular carcinoma. It’s standard protocol for patients with your history of fibrosis. Keep up with the Lisinopril and Atorvastatin, and let’s really try to eliminate those Sunday beers.\n\nGary Turner: Will do, Doc. See you in six months.",
+    "expectedEntities": {
+      "drugs": [
+        "Epclusa",
+        "Lisinopril",
+        "Atorvastatin",
+        "Tylenol",
+        "Advil",
+        "Ibuprofen",
+        "Acetaminophen",
+        "NSAIDs"
+      ],
+      "conditions": [
+        "Hepatitis C",
+        "Portal Hypertension",
+        "Cirrhosis",
+        "Fibrosis",
+        "Hypertension",
+        "High Cholesterol",
+        "Hepatic Steatosis",
+        "Fatty Liver",
+        "Hepatocellular Carcinoma"
+      ]
+    }
+  },
+  {
+    "id": "pamela-stewart__soap",
+    "patient": {
+      "firstName": "Pamela",
+      "lastName": "Stewart",
+      "dateOfBirth": "1971-11-18",
+      "gender": "Female",
+      "context": "Sarcoidosis. Corticosteroid therapy, pulmonology monitoring."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Reynolds: Good morning, Ms. Stewart. It is good to see you again. How have things been going since our last visit in August?\n\nPamela Stewart: Hi, Dr. Reynolds. Honestly, it's been a bit of a mixed bag. The breathing is definitely better, I'll give you that. I’m not getting as winded when I walk up the driveway anymore. But these side effects from the medication are really starting to wear me down.\n\nDr. Reynolds: I see. You're referring to the Prednisone?\n\nPamela Stewart: Yes. Even though we dropped the dose, I still feel jittery, and I’m having trouble sleeping. I’m usually up by 3:00 AM. And I just feel... puffy. My face feels swollen.\n\nDr. Reynolds: I understand, Pamela. Those are unfortunately very common side effects with long-term corticosteroids. Let's look at your chart. We stepped you down to 20 mg of Prednisone daily at the last visit. Have you been adhering to that dose strictly?\n\nPamela Stewart: Yes, 20 milligrams every morning with breakfast. I haven't missed a dose because I'm terrified the coughing fits will come back.\n\nDr. Reynolds: That is good. Consistency is key here. I'm looking at the vitals the nurse just took. Your blood pressure is 138 over 88, which is a little higher than your baseline, likely due to the steroids. Heart rate is 78, regular. Your oxygen saturation is 97% on room air, which is excellent. That's an improvement from the 94% we saw three months ago.\n\nPamela Stewart: That makes me feel a little better. What about the chest tightness?\n\nDr. Reynolds: Are you still using the Albuterol inhaler?\n\nPamela Stewart: Maybe once or twice a week? Mostly if it's humid outside.\n\nDr. Reynolds: Okay. I’m going to do a quick exam. If you could sit up straight for me. I'm going to listen to your lungs. Deep breath in... and out. Again. Good. And one more time on this side.\n\n[Sounds of stethoscope movement and breathing]\n\nDr. Reynolds: Okay, you can relax. The good news is that the crackles we heard in the lower lobes previously are significantly diminished. The air entry is good. No wheezing. I'm going to check your ankles for edema... just a trace amount here.\n\nPamela Stewart: Is that the sarcoidosis or the meds?\n\nDr. Reynolds: Likely a bit of fluid retention from the Prednisone. Here is my thinking, Pamela. clinically, your pulmonary sarcoidosis seems to be responding well. The inflammation is down. Because of the sleep issues and the blood pressure, I want to try tapering you again. I want to move you to 15 mg for four weeks, and then, if you remain stable, down to 10 mg.\n\nPamela Stewart: That sounds great, but what if the symptoms flare up?\n\nDr. Reynolds: If the cough returns or the shortness of breath worsens, you call us immediately, and we bump you back up. However, because we are looking at long-term management here, I want to revisit the conversation about steroid-sparing agents. We discussed Methotrexate briefly last year.\n\nPamela Stewart: That's the one you have to take once a week?\n\nDr. Reynolds: Correct. It would allow us to eventually get you off the steroids completely, sparing you the bone density loss and the weight gain. I'm not going to start it today, but if you can't tolerate the taper below 10 mg, that is our next step.\n\nPamela Stewart: Okay. I'll keep an open mind.\n\nDr. Reynolds: I also want to make sure you are still taking the Calcium and Vitamin D supplements we discussed? We need to protect your bones while you're on this therapy.\n\nPamela Stewart: Yes, I take the combo pill every day at lunch.\n\nDr. Reynolds: Excellent. I'm going to send you downstairs for pulmonary function tests (PFTs) today just to get objective numbers on your lung volume. I also want a repeat Chest X-ray to compare to the one from June. We need to check if that hilar lymphadenopathy has resolved.\n\nPamela Stewart: Do I need blood work too?\n\nDr. Reynolds: Yes, I want to check your ACE levels, a metabolic panel to check your glucose and kidney function, and a CBC. \n\nPamela Stewart: Okay. So, down to 15 milligrams starting tomorrow?\n\nDr. Reynolds: Exactly. 15 mg daily. Use the Albuterol as needed for tightness. We will review the PFTs and X-ray results via the patient portal, but I expect them to look good given your exam today. Let's schedule a follow-up for 6 weeks from now to monitor the taper.\n\nPamela Stewart: Sounds like a plan. Thanks, Dr. Reynolds.\n\nDr. Reynolds: You're welcome, Pamela. Take care.",
+    "expectedEntities": {
+      "drugs": [
+        "Prednisone",
+        "Albuterol",
+        "Methotrexate",
+        "Calcium",
+        "Vitamin D"
+      ],
+      "conditions": [
+        "Pulmonary Sarcoidosis",
+        "Dyspnea",
+        "Insomnia",
+        "Edema",
+        "Hypertension",
+        "Hilar lymphadenopathy"
+      ]
+    }
+  },
+  {
+    "id": "raymond-bell__soap",
+    "patient": {
+      "firstName": "Raymond",
+      "lastName": "Bell",
+      "dateOfBirth": "1973-04-30",
+      "gender": "Male",
+      "context": "Psoriatic arthritis. DMARD therapy, rheumatology follow-up."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Mr. Bell. Good to see you again.\n\nRaymond Bell: Hi, Dr. Evans. Good to see you too.\n\nDr. Evans: I see from the chart you turned 52 back in April. Happy belated birthday.\n\nRaymond Bell: Thank you. Getting older, feeling it a bit more these days.\n\nDr. Evans: Well, let's see if we can help with that. We are following up on your Psoriatic Arthritis today. It’s been about four months since your last visit. How have things been going?\n\nRaymond Bell: Honestly, it's been a bit of a rough patch. The last month or so, I feel like I'm sliding backward.\n\nDr. Evans: I'm sorry to hear that. Can you be more specific? Is it the skin, the joints, or both?\n\nRaymond Bell: The skin is actually okay. The patches on my elbows and scalp are pretty well controlled. It’s the joints. My hands are extremely stiff in the morning. It takes me about an hour and a half before I can really grip my coffee mug comfortably.\n\nDr. Evans: An hour and a half of morning stiffness is significant. Are you still taking the Methotrexate 15 mg once a week?\n\nRaymond Bell: Yes, every Friday night. And the Folic Acid every day.\n\nDr. Evans: Any side effects? Nausea or mouth sores?\n\nRaymond Bell: A little nausea on Saturday mornings, but I just sleep it off. It’s manageable.\n\nDr. Evans: Are you taking anything for the breakthrough pain?\n\nRaymond Bell: I’ve been popping Naproxen 500 mg usually twice a day. It helps a little, but by the evening my right knee is throbbing.\n\nDr. Evans: Okay. I’m looking at your vitals here. BP is 134/82, heart rate 78, temp 98.6. Weight is stable. Let’s take a look at those joints. Can you put your hands on the table?\n\nRaymond Bell: Sure.\n\nDr. Evans: (Examining) Okay, I see swelling in the PIP joints of the second and third fingers on the right hand. And looking at this index finger... yes, there is definite dactylitis here. That sausage-like swelling extends the whole length of the digit. Is this tender?\n\nRaymond Bell: Yeah, that one is really sore to the touch.\n\nDr. Evans: I also see some pitting on the nail beds here, which correlates with the disease activity. Let’s look at that right knee. (Manipulating knee) There is a moderate effusion here. It’s warm and boggy. Range of motion is restricted at full flexion.\n\nRaymond Bell: It feels like there's a balloon inside it.\n\nDr. Evans: Based on this exam, Raymond, the current regimen isn't holding the disease back. You have active synovitis and dactylitis. The Methotrexate helps, but it’s not enough to prevent joint damage at this stage.\n\nRaymond Bell: So, what do we do? More pills?\n\nDr. Evans: I think it's time to step up to a biologic. I want to add a TNF inhibitor. Specifically, Adalimumab, also known as Humira. It’s an injection you would do yourself at home every two weeks.\n\nRaymond Bell: An injection? I don't know if I can do that.\n\nDr. Evans: It comes in an auto-injector pen, very similar to an EpiPen. You don't actually see the needle. Most patients find it very easy once they try it. It tends to be very effective for both the arthritis and the skin psoriasis.\n\nRaymond Bell: Okay. If it stops the knee pain, I'll do it.\n\nDr. Evans: We will keep you on the Methotrexate as well, as it helps prevent your body from building antibodies against the new drug. Before we start, I need to run a CBC, a Comprehensive Metabolic Panel to check your liver and kidneys, and a Quantiferon Gold test to rule out latent TB.\n\nRaymond Bell: I can go down to the lab today.\n\nDr. Evans: Perfect. Continue the Naproxen as needed for now. Once we get the labs back and insurance approval, we will have the nurse teach you the injection technique. Let's plan to follow up in 3 months to see how the new medication is working.\n\nRaymond Bell: Sounds like a plan. Thanks, Doctor.",
+    "expectedEntities": {
+      "drugs": [
+        "Methotrexate",
+        "Folic Acid",
+        "Naproxen",
+        "Adalimumab",
+        "Humira"
+      ],
+      "conditions": [
+        "Psoriatic Arthritis",
+        "Psoriasis",
+        "Joint stiffness",
+        "Dactylitis",
+        "Nail pitting",
+        "Effusion",
+        "Synovitis",
+        "Latent TB"
+      ]
+    }
+  },
+  {
+    "id": "christine-howard__soap",
+    "patient": {
+      "firstName": "Christine",
+      "lastName": "Howard",
+      "dateOfBirth": "1983-03-25",
+      "gender": "Female",
+      "context": "Hidradenitis suppurativa. Antibiotic therapy, surgical consultation."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Christine. It’s good to see you again. I see here in the chart you just turned 42 back in March, happy belated birthday.\n\nChristine Howard: Thanks, Dr. Evans. Though honestly, I haven't really felt much like celebrating lately.\n\nDr. Evans: I’m sorry to hear that. Is it the HS acting up again?\n\nChristine Howard: Yeah, it’s really flared up. The last two weeks have been miserable. The lumps under my arms are incredibly painful, and I have a new one starting in my groin area that makes it hard to walk.\n\nDr. Evans: I'm sorry you're going through this. Let's look at your current regimen. You’ve been on the Doxycycline 100mg twice daily and using the topical Clindamycin lotion, correct? Have you been able to stay consistent with those?\n\nChristine Howard: I use the lotion every morning. I take the Doxycycline, but I missed a few doses last week because it was making me incredibly nauseous, even with food. And honestly, it doesn't feel like it's touching the infection anymore. The drainage is constant.\n\nDr. Evans: Okay, that’s important feedback. Antibiotic resistance or just lack of efficacy is common after long-term use. Before we decide on the next step, I need to take a look. If you could hop up on the table, I want to examine the axillae and the groin area.\n\n[Brief pause for examination]\n\nDr. Evans: Okay, Christine, you can get dressed. So, looking at the right axilla, I see two active, inflamed nodules and distinct sinus tracts—that’s the tunneling under the skin we discussed. There is some significant scarring forming there too. I would classify this as moving from Hurley Stage I to Stage II. The lesion in the groin is an acute abscess, likely needing drainage if it doesn't come to a head soon.\n\nChristine Howard: I was afraid you'd say that about the scarring. What do we do now? The pain is like a constant 6 out of 10.\n\nDr. Evans: We need to be more aggressive. Since the Doxycycline isn't working and causes nausea, we're stopping it. I want to switch you to a combination therapy that is often very effective for this stage. It involves taking two antibiotics: Clindamycin 300mg and Rifampin 300mg, both twice a day for 10 weeks.\n\nChristine Howard: Two strong antibiotics? Will that mess up my stomach too?\n\nDr. Evans: It can be tough on the gut. I recommend taking a good probiotic, but space it out two hours from the antibiotics. Also, watch out for orange discoloration of your urine or tears—that’s a harmless side effect of the Rifampin, but it can be startling if you aren't expecting it.\n\nChristine Howard: Okay, I can try it. What about the scarring?\n\nDr. Evans: That brings me to the second part of the plan. Because I'm seeing tunneling, medication alone won't remove the architectural damage in the skin. I’m putting in a referral to General Surgery, specifically Dr. Thorne, who has experience with HS. I think you’re a candidate for a 'deroofing' procedure on the right underarm to clean out those tracts.\n\nChristine Howard: Surgery sounds scary, but if it stops this from coming back, I'm in.\n\nDr. Evans: It’s usually very effective for specific recurring spots. In the meantime, continue with the Hibiclens washes in the shower. For the pain right now, are you taking anything?\n\nChristine Howard: Just Ibuprofen, but it barely takes the edge off.\n\nDr. Evans: You can alternate Tylenol and Ibuprofen for better coverage. If we don't see improvement with this new antibiotic combo in 3 months, or if the surgery consult suggests it, we might need to discuss biologic therapy, like Humira, down the road. But let's take this one step at a time.\n\nChristine Howard: Alright. I'll pick up the new prescriptions today. Thanks, Dr. Evans.",
+    "expectedEntities": {
+      "drugs": [
+        "Doxycycline",
+        "Clindamycin lotion",
+        "Clindamycin (oral)",
+        "Rifampin",
+        "Hibiclens",
+        "Ibuprofen",
+        "Tylenol",
+        "Humira"
+      ],
+      "conditions": [
+        "Hidradenitis suppurativa",
+        "Hurley Stage I",
+        "Hurley Stage II",
+        "Nodules",
+        "Sinus tracts",
+        "Scarring",
+        "Abscess",
+        "Nausea"
+      ]
+    }
+  },
+  {
+    "id": "arthur-watson__soap",
+    "patient": {
+      "firstName": "Arthur",
+      "lastName": "Watson",
+      "dateOfBirth": "1970-01-23",
+      "gender": "Male",
+      "context": "Addison's disease. Hydrocortisone replacement, medical alert bracelet."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Miller: Good morning, Arthur. It's good to see you. How have you been feeling since our last visit six months ago?\n\nArthur Watson: Morning, Dr. Miller. I've been doing alright, mostly. I feel pretty stable, though I've noticed I'm dragging a bit more in the late afternoons recently. Around 4:00 PM, I just hit a wall.\n\nDr. Miller: Okay, let's talk about that. We currently have you on Hydrocortisone 20 milligrams in the morning and 10 milligrams in the afternoon, correct?\n\nArthur Watson: Yes, that's right. I take the big dose at breakfast, around 7:00 AM, and the second one around 2:00 PM.\n\nDr. Miller: And are you taking the Fludrocortisone as well?\n\nArthur Watson: Yes, the 0.1 milligram tablet every morning. I never miss that one.\n\nDr. Miller: Good. Regarding that afternoon fatigue, it might mean you're metabolizing the first dose a bit faster, or the gap between doses is slightly too long. We might need to adjust the timing rather than the amount. Are you noticing any dizziness when you stand up quickly? Or any intense salt cravings?\n\nArthur Watson: No dizziness, really. Salt cravings... maybe a little more than usual. I found myself needing to salt my eggs heavily this week.\n\nDr. Miller: Okay. I want to check your blood pressure lying down and standing up in a moment to rule out orthostatic hypotension. Before we do that, have you had any illnesses or high-stress events since I saw you last? Any \"sick days\"?\n\nArthur Watson: Actually, yes. About two months ago I picked up a stomach bug. Just a 24-hour thing, but I was vomiting.\n\nDr. Miller: How did you manage your medication during that?\n\nArthur Watson: I remembered the sick day rules. I couldn't keep the pills down initially, so I was about to use the emergency injection, but then the nausea passed enough for me to take a double dose of the Hydrocortisone with some crackers. I stayed on the double dose for two days until I felt normal.\n\nDr. Miller: That was exactly the right thing to do, Arthur. I'm very glad you didn't hesitate. If you ever can't keep the pills down for more than an hour, you must use the injection. Speaking of which, do you have your emergency kit with you?\n\nArthur Watson: I do. It's in my bag.\n\nDr. Miller: Let's check the expiration date on that Solu-Cortef vial... Okay, looks like this expires next month. I'm going to write you a prescription for a new kit today. Please fill it immediately.\n\nArthur Watson: Will do.\n\nDr. Miller: I also see you're wearing your medical alert bracelet. That looks new?\n\nArthur Watson: Yeah, the clasp broke on the old one. This one says \"Addison's Disease - Adrenal Insufficiency\" and lists the meds on the back.\n\nDr. Miller: Perfect. Let's do a quick physical. I'm going to check your skin for hyperpigmentation. Let me see your hands... okay, the knuckles look good. Let me see inside your mouth... gums look pink, no dark spots. That suggests your replacement dose is likely adequate and not too low, despite the fatigue.\n\nArthur Watson: That's good to hear.\n\nDr. Miller: Now for the blood pressure. Sitting... 118 over 76. Good. Now stand up for me, please... and checking... 115 over 72. That's a very stable reading. The Fludrocortisone dose seems correct.\n\nArthur Watson: So what about the afternoon tiredness?\n\nDr. Miller: Since your vitals are stable and you don't show signs of under-replacement like darkening skin, I suspect it's a timing issue. I'd like you to try taking your morning dose at 7:00 AM as usual, but push the second dose to 3:00 PM. Let's see if that bridges the gap to the evening better.\n\nArthur Watson: Okay, I can try that.\n\nDr. Miller: I'm sending you for a Basic Metabolic Panel to check your sodium and potassium, and a Renin level just to be sure. If those look good, we'll stick to the timing change. Refills for the Hydrocortisone, Fludrocortisone, and the new Solu-Cortef are sent to your pharmacy.\n\nArthur Watson: Thanks, Dr. Miller.\n\nDr. Miller: You're welcome, Arthur. Call us if you feel lightheaded or if the fatigue gets worse. Otherwise, I'll see you in six months.",
+    "expectedEntities": {
+      "drugs": [
+        "Hydrocortisone",
+        "Fludrocortisone",
+        "Solu-Cortef"
+      ],
+      "conditions": [
+        "Addison's disease",
+        "Adrenal Insufficiency",
+        "Fatigue",
+        "Orthostatic hypotension",
+        "Hyperpigmentation",
+        "Salt craving",
+        "Gastroenteritis"
+      ]
+    }
+  },
+  {
+    "id": "gloria-barnes__soap",
+    "patient": {
+      "firstName": "Gloria",
+      "lastName": "Barnes",
+      "dateOfBirth": "1981-08-01",
+      "gender": "Female",
+      "context": "Ehlers-Danlos syndrome. Physical therapy, joint protection strategies."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Reynolds: Good morning, Gloria. Come on in. It’s good to see you again. \n\nGloria Barnes: Hi, Dr. Reynolds. Thanks for fitting me in.\n\nDr. Reynolds: Of course. I see in the chart you celebrated a birthday recently, turning 44 back in August? Happy belated birthday.\n\nGloria Barnes: Thank you. Yeah, 44 feels a lot older than I expected, mostly because my joints are acting like they're 80.\n\nDr. Reynolds: I understand. Managing Ehlers-Danlos syndrome is a daily marathon, not a sprint. Let's review how things have been going since your last visit. How is the joint instability?\n\nGloria Barnes: It's been up and down. My main issue right now is my left shoulder and my fingers. The shoulder feels like it's slipping out of the socket—subluxing—almost every night when I roll over in bed. It wakes me up.\n\nDr. Reynolds: I'm sorry to hear that. That nocturnal subluxation is tricky. Have you been using the pillows for positioning we discussed?\n\nGloria Barnes: I try to, but I toss and turn. My fingers are also locking up when I type. They hyperextend so easily now.\n\nDr. Reynolds: Okay, we definitely need to look at some joint protection strategies for the hands today. Before the exam, let's update your medications. Are you still taking the Celebrex?\n\nGloria Barnes: Yes, the Celebrex 200 mg once a day. It helps take the edge off the inflammation. \n\nDr. Reynolds: Any stomach issues with that?\n\nGloria Barnes: No, I take it with food. I'm also taking Tylenol Extra Strength, usually two of the 500 mg tablets, maybe three times a week when the weather is bad.\n\nDr. Reynolds: That’s fine, just watch the total daily dose on the acetaminophen. Are you still taking the Magnesium Glycinate for the muscle spasms?\n\nGloria Barnes: Yes, 400 mg at night. It helps a little with the restless legs too.\n\nDr. Reynolds: Excellent. Let's move to the physical exam. I'm going to check your vitals first. Blood pressure is 110 over 70, heart rate is 78, temperature 98.6. Your oxygen saturation is 99%. That all looks stable. Now, let me take a look at that left shoulder.\n\n(Sounds of movement)\n\nDr. Reynolds: I’m going to gently rotate your arm. Tell me if it hurts. \n\nGloria Barnes: Ouch. Yeah, right there. It feels loose.\n\nDr. Reynolds: Positive sulcus sign noted on the left. You have significant multidirectional instability there. Checking your hands... yes, clear Swan neck deformity beginning in the index and middle fingers bilaterally. Your Beighton score remains an 8 out of 9. \n\nGloria Barnes: Is it getting worse?\n\nDr. Reynolds: The laxity is consistent with your hEDS diagnosis. The issue is that as we age, the compensatory muscles get fatigued, leading to more pain. Here is the plan. First, for the shoulder, I want to modify your physical therapy script. We need to focus strictly on isometric stabilization for the rotator cuff. No heavy weights, no wide range of motion exercises that stretch the capsule.\n\nGloria Barnes: Okay. The last PT I saw had me doing bands that felt like they were pulling my arm off.\n\nDr. Reynolds: We'll put a note to avoid traction exercises. Second, for the hands, I’m going to refer you to an occupational therapist specifically for silver ring splints. \n\nGloria Barnes: Ring splints?\n\nDr. Reynolds: They look like jewelry, but they physically block your finger joints from hyperextending while allowing you to bend them normally. They are fantastic for typing and fine motor tasks. They will protect those joints from osteoarthritis down the line.\n\nGloria Barnes: That sounds actually really helpful. I'm worried about my hands getting deformed.\n\nDr. Reynolds: It's a great preventative measure. I'm also going to refill the Celebrex 200 mg for another 90 days. Keep up with the hydration and the salt intake if you feel lightheaded, given your history of mild dysautonomia.\n\nGloria Barnes: Will do. Thanks, Doctor.\n\nDr. Reynolds: You're welcome, Gloria. Let's check back in 4 months, or sooner if that shoulder doesn't stabilize with the new PT protocol.",
+    "expectedEntities": {
+      "drugs": [
+        "Celebrex",
+        "Celecoxib",
+        "Tylenol Extra Strength",
+        "Acetaminophen",
+        "Magnesium Glycinate"
+      ],
+      "conditions": [
+        "Ehlers-Danlos syndrome",
+        "hEDS",
+        "Joint instability",
+        "Shoulder subluxation",
+        "Swan neck deformity",
+        "Multidirectional instability",
+        "Osteoarthritis",
+        "Dysautonomia",
+        "Muscle spasms"
+      ]
+    }
+  },
+  {
+    "id": "eugene-long__soap",
+    "patient": {
+      "firstName": "Eugene",
+      "lastName": "Long",
+      "dateOfBirth": "1971-07-26",
+      "gender": "Male",
+      "context": "Hyperparathyroidism. Calcium monitoring, considering parathyroidectomy."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Eugene. It looks like you're 54 now, happy belated birthday. How have things been going since we last spoke three months ago?\n\nEugene Long: Thanks, Dr. Evans. Honestly? About the same. I'm still feeling pretty washed out. The fatigue just doesn't seem to go away, even if I sleep eight hours. And my wife says I've been a bit more irritable than usual.\n\nDr. Evans: I see. Any new aches or pains? Specifically in the bones or joints?\n\nEugene Long: My lower back aches, but I sit at a desk all day. No sharp pains like when I had that kidney stone last year, thank goodness. That was misery.\n\nDr. Evans: We definitely want to avoid a repeat of that. Let's take a look at your vitals. Your blood pressure is 142 over 86 today, which is a little higher than I'd like, even on the medication. Your heart rate is 78. I want to review the labs you had drawn on Tuesday. \n\nEugene Long: Was the calcium high again?\n\nDr. Evans: Yes, it is. Your serum calcium came back at 11.2 mg/dL. The normal range tops out around 10.2 or 10.3. Your Parathyroid Hormone, or PTH, is also elevated at 88 pg/mL. Normally, if calcium is high, your body should shut off PTH production. The fact that both are high confirms the diagnosis of Primary Hyperparathyroidism.\n\nEugene Long: So it is the gland acting up.\n\nDr. Evans: Exactly. We also got the results back from your DEXA scan. It shows osteopenia, particularly in the distal radius of the forearm. This means the excess hormone is leaching some calcium out of your bones. Combined with your history of kidney stones, your age, and the symptomatic fatigue, I think we've moved past the 'watch and wait' phase.\n\nEugene Long: You think it's time for surgery?\n\nDr. Evans: I do. We ordered the Sestamibi parathyroid scan last week to see if we could localize the problem. The images showed a distinct uptake in the lower right pole of the thyroid bed. This suggests a single parathyroid adenoma—a benign growth—rather than all four glands being enlarged. This is good news because it makes the surgery much more straightforward, usually minimally invasive.\n\nEugene Long: Okay. I was hoping to avoid it, but if it stops the stones and helps the tiredness, I'm in. What do I do about my meds in the meantime?\n\nDr. Evans: Continue taking your Lisinopril 20mg daily for the blood pressure. However, I want you to stop the Vitamin D supplement we discussed previously. Sometimes we supplement if Vitamin D is low to suppress the parathyroid, but with your calcium pushing 11.2, I don't want to drive it any higher before surgery. \n\nEugene Long: Got it. Lisinopril yes, Vitamin D no. Do I need to change my diet?\n\nDr. Evans: Just stay well-hydrated. Don't restrict calcium in your diet—that can actually stimulate the gland more—but don't take extra calcium supplements like Tums or calcium carbonate. I'm going to put in a referral to Dr. Lin in Endocrine Surgery. She performs parathyroidectomies frequently. They will likely check your calcium and PTH one more time intra-operatively to confirm the cure.\n\nEugene Long: Alright. How long is the recovery usually?\n\nDr. Evans: Usually quite quick. Many patients go home the same day. You might have a sore throat for a few days. We'll monitor your calcium levels closely immediately after surgery to make sure they don't drop too low, which can cause tingling in the fingers. \n\nEugene Long: Okay, let's get it over with. \n\nDr. Evans: I'll have the front desk set up the referral. Let's plan to see you back here about two weeks after the procedure to check your blood pressure and labs.",
+    "expectedEntities": {
+      "drugs": [
+        "Lisinopril",
+        "Vitamin D",
+        "Tums",
+        "Calcium carbonate"
+      ],
+      "conditions": [
+        "Primary Hyperparathyroidism",
+        "Hypercalcemia",
+        "Osteopenia",
+        "Hypertension",
+        "Nephrolithiasis",
+        "Fatigue",
+        "Parathyroid adenoma"
+      ]
+    }
+  },
+  {
+    "id": "teresa-foster__soap",
+    "patient": {
+      "firstName": "Teresa",
+      "lastName": "Foster",
+      "dateOfBirth": "1975-05-24",
+      "gender": "Female",
+      "context": "Vitiligo. Topical corticosteroids, phototherapy, cosmetic camouflage."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Teresa. It is good to see you again. How have you been doing since your last visit six months ago?\n\nTeresa Foster: Hi Dr. Evans. I’ve been doing okay. Just busy with work and getting ready for my 50th birthday coming up in May.\n\nDr. Evans: That is a big milestone! Happy early birthday. We are seeing you today for a follow-up on your vitiligo, correct? Is there anything else going on?\n\nTeresa Foster: No, just the skin issues. To be honest, I feel like the patches on my hands are getting a little more noticeable, and I found a new spot near my left eye that has me worried.\n\nDr. Evans: Okay, we will definitely take a look at those. Let's review your current regimen first. You were prescribed Clobetasol propionate 0.05% cream for the lesions on your body and extremities. How are you using that?\n\nTeresa Foster: I put it on the white spots on my hands and elbows once a day, usually at night. I try to be consistent, but I might miss a day here and there.\n\nDr. Evans: And how about the phototherapy? We had you set up for Narrowband UVB twice a week.\n\nTeresa Foster: I’ve been going to the clinic for the light box sessions pretty regularly. I missed a week last month when I had the flu, but otherwise, I've been going Tuesdays and Thursdays.\n\nDr. Evans: Good. Have you noticed any burning or excessive redness after the sessions?\n\nTeresa Foster: No burning, just a little pinkness that goes away after a few hours.\n\nDr. Evans: Excellent. And for the cosmetic camouflage, are you still using the Dermablend?\n\nTeresa Foster: Yes, I use the cover cream on my hands when I go out for social events. It matches my skin tone pretty well, but it is a hassle to apply every day, so I don't use it for work usually.\n\nDr. Evans: Understood. Let's take a look at your skin. I'm going to examine your hands first.\n\n(Pause for examination)\n\nDr. Evans: Okay, I see the depigmented patches on the dorsal aspect of the hands and over the MCP joints. They do look a bit more extensive than the photos from your last visit. Now let me look at your face. You mentioned a spot near the eye?\n\nTeresa Foster: Yes, right here on the left lid.\n\nDr. Evans: I see it. I'm going to turn off the room lights and use the Wood's lamp to get a better look at the extent of the pigment loss.\n\n(Lights dim)\n\nDr. Evans: Okay, the fluorescence is quite distinct. The patch on the eyelid is small, about 5 millimeters, but there is some subtle depigmentation around the mouth corners as well, the perioral area. You can relax now, I'll turn the lights back on.\n\nTeresa Foster: Is it bad? I really don't want to use that strong steroid cream near my eyes.\n\nDr. Evans: You are absolutely right. We have to be very careful with corticosteroids like Clobetasol on the face, especially the eyelids, because it can cause skin thinning—atrophy—or even glaucoma if it gets in the eye. Since the vitiligo is appearing on the face, I want to switch your facial treatment to a non-steroidal option.\n\nTeresa Foster: What would that be?\n\nDr. Evans: I'm going to prescribe Tacrolimus 0.1% ointment. It's a calcineurin inhibitor. It suppresses the immune response that attacks the pigment cells, but it doesn't thin the skin. You can use that twice daily on the face and eyelid.\n\nTeresa Foster: Okay, that sounds safer.\n\nDr. Evans: For the hands and elbows, because the skin is thicker there, let's continue with the Clobetasol cream, but I want you to do a 'two weeks on, one week off' cycle to prevent side effects. And please continue the Narrowband UVB phototherapy; it takes time to see repigmentation, often 6 to 12 months for significant results.\n\nTeresa Foster: Okay. Do I need any blood tests? I read online that this is autoimmune.\n\nDr. Evans: That is a good question. Vitiligo is often associated with other autoimmune conditions, particularly thyroid disease. Looking at your chart, your last TSH level was normal two years ago. Given your age and the progression, let's get a TSH and a reflex Free T4 drawn today just to screen for thyroid dysfunction.\n\nTeresa Foster: Sounds good.\n\nDr. Evans: So, the plan: Pick up the Tacrolimus for the face, cycle the Clobetasol for the body, continue light therapy, and head to the lab for the blood draw. We will see you back in three months to check on the repigmentation.\n\nTeresa Foster: Thank you, Dr. Evans.\n\nDr. Evans: You're welcome, Teresa. Take care.",
+    "expectedEntities": {
+      "drugs": [
+        "Clobetasol propionate 0.05% cream",
+        "Tacrolimus 0.1% ointment",
+        "Narrowband UVB",
+        "Dermablend"
+      ],
+      "conditions": [
+        "Vitiligo",
+        "Depigmentation",
+        "Skin atrophy",
+        "Autoimmune thyroid disease",
+        "Glaucoma"
+      ]
+    }
+  },
+  {
+    "id": "tyler-hayes__progress",
+    "patient": {
+      "firstName": "Tyler",
+      "lastName": "Hayes",
+      "dateOfBirth": "1995-09-08",
+      "gender": "Male",
+      "context": "Gilbert's syndrome. Reassurance, no treatment needed, annual monitoring."
+    },
+    "templateId": "progress",
+    "transcript": "Dr. Sarah Miller: Good morning, Tyler. Good to see you again. How have you been since your last physical?\n\nTyler Hayes: Hi Dr. Miller. I've been pretty good, mostly. Just been busy with work and trying to stay active. I turned 30 back in September, so I'm trying to take my health a bit more seriously.\n\nDr. Sarah Miller: Happy belated birthday. Entering a new decade is a great time to establish good habits. I see here we have the results from the blood work you did earlier this week. Before we dive into those, have you noticed any specific changes or symptoms?\n\nTyler Hayes: Honestly, that's why I came in a bit early for the follow-up. A couple of weeks ago, I had a pretty bad stomach bug—just a viral thing, I think—and I wasn't eating much for about two days. My girlfriend mentioned that the whites of my eyes looked a little yellow. It freaked me out a bit. It went away once I started eating again, but I wanted to make sure my liver isn't failing or something.\n\nDr. Sarah Miller: I understand why that would be alarming, but let me reassure you immediately—your liver is not failing. I've reviewed your Comprehensive Metabolic Panel, and it actually aligns perfectly with what you’re describing and your history of Gilbert's syndrome.\n\nTyler Hayes: Okay, that's a relief. So the yellowing was just the Gilbert's?\n\nDr. Sarah Miller: Exactly. Let's look at the numbers. Your liver enzymes—the AST and ALT—are completely normal. AST is 22 and ALT is 24. If there was liver damage or hepatitis, we'd see those numbers spike into the hundreds or thousands. However, your Total Bilirubin is elevated at 2.4 mg/dL, and your Direct Bilirubin is normal at 0.3. This means the elevation is almost entirely 'indirect' or unconjugated bilirubin.\n\nTyler Hayes: Right, the stuff my liver is slow at processing?\n\nDr. Sarah Miller: Precisely. In Gilbert's syndrome, you have a genetic variant that makes the enzyme responsible for processing bilirubin slightly less efficient. It usually handles normal loads fine, but when your body is under stress—like that viral illness you mentioned, or the fasting caused by not eating—the enzyme falls behind, and bilirubin builds up in the blood. That causes the mild scleral icterus, or yellowing of the eyes.\n\nTyler Hayes: Okay. I’ve also been doing some heavy weightlifting and taking Ibuprofen for soreness. Does that affect it?\n\nDr. Sarah Miller: Vigorous exercise can sometimes be a mild trigger due to the physical stress on the body, but it's generally fine. Ibuprofen is processed by the kidneys mostly, so it's not a major issue for the liver in standard doses, though I'd recommend sticking to Acetaminophen if you have stomach sensitivity, just don't exceed 3000mg a day. But for Gilbert's specifically, the main triggers are fasting, illness, dehydration, and lack of sleep.\n\nTyler Hayes: Got it. So, do I need to take anything for it? Or change my diet?\n\nDr. Sarah Miller: No treatment is needed. Gilbert's is considered a benign condition. It doesn't lead to chronic liver disease or fibrosis. My plan for you is simply reassurance and annual monitoring. You don't need a special diet, but you should avoid prolonged fasting or crash diets, as those will likely bring the jaundice back. Just stay hydrated and eat regular meals.\n\nTyler Hayes: That sounds easy enough. I was worried I'd need to stop drinking alcohol entirely.\n\nDr. Sarah Miller: You don't need to abstain completely, but moderation is always key for general health. Your liver is healthy, Tyler. \n\nTyler Hayes: Thanks, Dr. Miller. That really puts my mind at ease.\n\nDr. Sarah Miller: You're welcome. Your blood pressure looks great today at 118 over 76, and your heart rate is 68. Physically, everything looks normal. I’ll see you next year for your annual, unless something new comes up.",
+    "expectedEntities": {
+      "drugs": [
+        "Ibuprofen",
+        "Acetaminophen"
+      ],
+      "conditions": [
+        "Gilbert's syndrome",
+        "Scleral icterus",
+        "Jaundice",
+        "Viral gastroenteritis",
+        "Hyperbilirubinemia"
+      ]
+    }
+  },
+  {
+    "id": "michael-o'brien__soap",
+    "patient": {
+      "firstName": "Michael",
+      "lastName": "O'Brien",
+      "dateOfBirth": "1983-12-05",
+      "gender": "Male",
+      "context": "Lower back pain. NSAIDs, physical therapy referral, ergonomic workplace assessment."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Sarah Jenkins: Good morning, Michael. It’s good to see you again. I see from the nurse's notes that you're here today because of some lower back pain. Can you tell me a little bit more about what's going on?\n\nMichael O'Brien: Hi, Dr. Jenkins. Yeah, it's been bothering me for about two weeks now. I turned 42 last month, and I feel like my body is just starting to creak. It started right after I helped my brother move some furniture into his new apartment. I lifted a heavy box of books, felt a twinge, and it's been stiff ever since.\n\nDr. Jenkins: I'm sorry to hear that. On a scale of one to ten, with ten being the worst pain imaginable, where would you rate it right now?\n\nMichael O'Brien: Right now, sitting here, it's maybe a 3 or a 4. But in the mornings, or if I try to tie my shoes, it spikes up to a 7 or 8. It's mostly a dull ache that turns into a sharp stabbing sensation if I move the wrong way.\n\nDr. Jenkins: Does the pain radiate anywhere? Do you feel any shooting pain down your buttocks or into your legs?\n\nMichael O'Brien: No, nothing like that. It stays right in the lower back, right around the belt line.\n\nDr. Jenkins: Okay, that's good. Any numbness, tingling, or weakness in your legs? Any issues with bowel or bladder control?\n\nMichael O'Brien: No, definitely not.\n\nDr. Jenkins: Glad to hear it. Have you taken anything for the pain so far?\n\nMichael O'Brien: I've been taking over-the-counter Tylenol, but it barely touches it. I tried some Advil a few days ago, which helped a little more, but I didn't want to overdo it.\n\nDr. Jenkins: Okay. I'm going to take a look. If you could hop up on the exam table for me. I'm going to check your range of motion. I want you to try and bend forward and touch your toes—just go as far as you can comfortably.\n\nMichael O'Brien: [Grunts] Yeah, that’s about it. I can barely get past my knees. It feels really tight right in the center.\n\nDr. Jenkins: Okay, stand back up. I'm going to palpate the spine. Tell me where it hurts... Here?\n\nMichael O'Brien: A little.\n\nDr. Jenkins: How about here, around L4 and L5?\n\nMichael O'Brien: Yes! Right there. That’s very tender.\n\nDr. Jenkins: Okay, significant paraspinal muscle tenderness noted. I'm going to have you lie on your back now. I'm going to lift your leg—this is the straight leg raise test. Let me know if you feel pain shooting down the leg.\n\nMichael O'Brien: No shooting pain, just tightness in the hamstring.\n\nDr. Jenkins: Okay, negative straight leg raise bilaterally. Reflexes at the knees and ankles are 2+ and symmetric. Michael, based on the exam, it looks like you have a mechanical lumbar strain with some muscle spasms. The good news is there are no signs of nerve root compression or radiculopathy.\n\nMichael O'Brien: That’s a relief. So, what do we do?\n\nDr. Jenkins: We need to calm that inflammation down and get you moving properly. The Tylenol likely wasn't working because it’s not an anti-inflammatory. I’m going to prescribe Naproxen 500 mg. You should take one tablet twice a day with food to protect your stomach. I’m also going to call in a short course of Cyclobenzaprine 10 mg—that’s a muscle relaxant. Only take that at night because it will make you drowsy, but it should help with the morning stiffness.\n\nMichael O'Brien: Okay, sounds good.\n\nDr. Jenkins: However, medication is just a bridge. The real fix is strengthening the core and improving flexibility. I am placing a referral for Physical Therapy. I want you to go for six weeks. They will focus on lumbar stabilization exercises.\n\nMichael O'Brien: Okay, I can do that.\n\nDr. Jenkins: Also, you work in IT, right? You spend a lot of time at a desk?\n\nMichael O'Brien: Yeah, usually 8 to 10 hours a day sitting.\n\nDr. Jenkins: That’s likely contributing to the problem. I want you to request an ergonomic workplace assessment. Make sure your monitor is at eye level and your chair supports your lumbar curve. Try to get up and walk every hour.\n\nMichael O'Brien: I’ll talk to HR about the assessment. Thanks, Dr. Jenkins.\n\nDr. Jenkins: You're welcome, Michael. If you develop any leg weakness or numbness, call us immediately. Otherwise, let's follow up in 6 weeks after you've started PT.",
+    "expectedEntities": {
+      "drugs": [
+        "Tylenol",
+        "Advil",
+        "Naproxen",
+        "Cyclobenzaprine"
+      ],
+      "conditions": [
+        "Lower back pain",
+        "Mechanical lumbar strain",
+        "Muscle spasms",
+        "Paraspinal muscle tenderness",
+        "Inflammation"
+      ]
+    }
+  },
+  {
+    "id": "ashley-brown__soap",
+    "patient": {
+      "firstName": "Ashley",
+      "lastName": "Brown",
+      "dateOfBirth": "1991-09-07",
+      "gender": "Female",
+      "context": "Polycystic ovary syndrome. Metformin 500mg BID, oral contraceptives, endocrinology referral."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Jenkins: Good morning, Ashley. It is good to see you again. I see we are doing a follow-up on your PCOS management today. How have you been feeling since our last visit six months ago?\n\nAshley Brown: Hi Dr. Jenkins. I've been doing okay. Honestly, the fatigue comes and goes, but my cycles have definitely regulated since we switched the birth control.\n\nDr. Jenkins: That is good to hear. You are currently 34 now, correct?\n\nAshley Brown: Yes, I turned 34 last month.\n\nDr. Jenkins: Happy belated birthday. Let's look at your vitals. Your blood pressure is 118/78, which is excellent. Your heart rate is 72, and your temperature is 98.6. I do see your weight is at 185 pounds today, which is up about four pounds from the last visit.\n\nAshley Brown: Yeah, that's the frustrating part. I feel like I'm eating pretty clean, but the scale just won't budge, or it creeps up. It's really discouraging.\n\nDr. Jenkins: I understand, Ashley. With Polycystic ovary syndrome, the metabolic component makes weight management significantly harder than it is for the average person due to the insulin resistance. Let's talk about your medications. Are you still taking the Metformin?\n\nAshley Brown: Yes, I am. I'm taking the 500mg twice a day, usually with breakfast and dinner.\n\nDr. Jenkins: How is your stomach tolerating it? I know we had some issues with nausea initially.\n\nAshley Brown: It's much better now. As long as I eat a full meal with it, I don't get the cramping anymore. If I skip a meal and take it, I definitely regret it.\n\nDr. Jenkins: Okay, that is standard. Consistency is key there. And you mentioned the birth control is working for the cycles. You are on the Yaz generic, correct? Loryna?\n\nAshley Brown: Yes, Loryna. I take it every night. My period comes exactly when it's supposed to now, and it's much lighter. My acne has cleared up a bit too along my jawline.\n\nDr. Jenkins: That is excellent. Drospirenone-based contraceptives like Loryna are often very helpful for the androgenic symptoms like acne. Have you noticed any changes in hair growth? specifically on the chin or chest?\n\nAshley Brown: The chin hair is still there. I have to pluck every morning. It's embarrassing, honestly.\n\nDr. Jenkins: I see. Hirsutism can be stubborn. Since the oral contraceptive alone isn't fully managing that, and considering the struggle with weight, I think it is time to get a specialist involved. I want to place a referral to Endocrinology.\n\nAshley Brown: Okay. What would they do differently?\n\nDr. Jenkins: An endocrinologist can do a deeper dive into your hormonal profile. They might consider adding a medication called Spironolactone to help with the hair growth, or they might want to adjust your Metformin dosage or look at other metabolic agents to help with the insulin resistance and weight. Given your age, if you are planning on fertility in the near future, they are also the best resource for that planning.\n\nAshley Brown: That sounds like a good idea. I'm not trying to get pregnant right now, but maybe in a year or two.\n\nDr. Jenkins: Perfect timing then. Let's get your labs done today—CBC, comprehensive metabolic panel, A1C, and a lipid panel—so the endocrinologist has fresh data. \n\nAshley Brown: Sounds good.\n\nDr. Jenkins: So, the plan: Continue Metformin 500mg BID and the Loryna daily. I'm sending the referral to Dr. Cho at the endocrine center; his office will call you to schedule. Try to keep a food log this week to show him. Any other questions for me, Ashley?\n\nAshley Brown: No, I think that covers it. Thanks, Dr. Jenkins.",
+    "expectedEntities": {
+      "drugs": [
+        "Metformin",
+        "Loryna",
+        "Yaz",
+        "Spironolactone",
+        "Oral contraceptives"
+      ],
+      "conditions": [
+        "Polycystic ovary syndrome",
+        "PCOS",
+        "Insulin resistance",
+        "Acne",
+        "Hirsutism",
+        "Obesity",
+        "Fatigue"
+      ]
+    }
+  },
+  {
+    "id": "kevin-allen__soap",
+    "patient": {
+      "firstName": "Kevin",
+      "lastName": "Allen",
+      "dateOfBirth": "1981-02-14",
+      "gender": "Male",
+      "context": "Gout flare. Colchicine, NSAIDs, allopurinol for prophylaxis, dietary modifications."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Kevin. I see on the intake form that you’re having some trouble walking today. What’s going on?\n\nKevin Allen: Hi, Dr. Evans. Yeah, trouble walking is putting it mildly. It’s my left foot. specifically the big toe. I woke up yesterday morning at about 3 AM and it felt like it was on fire. Even the bedsheet touching it was excruciating. I’ve been hopping around on my right foot since then.\n\nDr. Evans: I'm sorry to hear that. That 3 AM onset is actually quite classic for what I suspect. Have you ever had pain like this before?\n\nKevin Allen: Once, maybe three years ago, but it went away on its own after a day. This time it’s sticking around and seems to be getting more swollen. I tried taking some over-the-counter Ibuprofen, maybe 400 milligrams, but it didn't touch the pain.\n\nDr. Evans: Okay. Let’s take a look. I'm going to gently examine the foot. \n\nKevin Allen: Please be careful.\n\nDr. Evans: I will. I see significant erythema and edema localized to the first metatarsal-phalangeal joint on the left foot. It is warm to the touch. The range of motion is severely limited due to pain. Kevin, this looks like a textbook case of podagra, or an acute gout flare.\n\nKevin Allen: Gout? Isn't that an old man's disease?\n\nDr. Evans: It's actually quite common in men your age, Kevin. You're 44, which is a typical onset window. It's caused by a buildup of uric acid crystals in the joint. Before this started, were there any changes in your diet or fluid intake? Maybe over the weekend?\n\nKevin Allen: Well, it was the Super Bowl weekend. I definitely had a few beers and we did a steak and shrimp boil.\n\nDr. Evans: That is the perfect storm, unfortunately. Red meat, shellfish, and alcohol—especially beer—are high in purines, which break down into uric acid. Dehydration plays a role too. Your blood pressure is a bit elevated today at 145 over 90, which is likely driven by the pain, but we need to keep an eye on that.\n\nKevin Allen: So what do we do? I need to get back to work.\n\nDr. Evans: We need to attack the inflammation immediately. Since the Ibuprofen didn't work, I'm going to prescribe two specific medications for this acute phase. First is Colchicine. You’re going to take two tablets, that's 1.2 milligrams, immediately, followed by one tablet an hour later. That usually stops the attack in its tracks.\n\nKevin Allen: Okay.\n\nDr. Evans: Secondly, for the pain and inflammation, I'm prescribing Indomethacin. It’s a strong NSAID. Take 50 milligrams three times a day with food—it can be hard on the stomach.\n\nKevin Allen: And how do I prevent this from happening again? I don't want to feel this again.\n\nDr. Evans: That's the long-term plan. Once this flare subsides—usually in about a week or two—we need to look at prophylaxis. I want to start you on a medication called Allopurinol. It lowers the uric acid levels in your blood so crystals don't form. We don't start it during the flare because it can sometimes make the acute pain worse initially, but we will start it once you're symptom-free.\n\nKevin Allen: Okay, so Colchicine and Indomethacin now. Allopurinol later.\n\nDr. Evans: Exactly. And we need to discuss lifestyle. You need to hydrate aggressively—2 to 3 liters of water a day. And try to limit the beer and red meat. If we can manage this with diet and Allopurinol, you shouldn't have another flare.\n\nKevin Allen: Understood. I'll head to the pharmacy now.\n\nDr. Evans: I'll send those over. Call me if the pain doesn't subside by 50% in 24 hours.",
+    "expectedEntities": {
+      "drugs": [
+        "Ibuprofen",
+        "Colchicine",
+        "Indomethacin",
+        "Allopurinol",
+        "NSAIDs"
+      ],
+      "conditions": [
+        "Gout",
+        "Podagra",
+        "Erythema",
+        "Edema",
+        "Hypertension",
+        "Hyperuricemia"
+      ]
+    }
+  },
+  {
+    "id": "amanda-green__soap",
+    "patient": {
+      "firstName": "Amanda",
+      "lastName": "Green",
+      "dateOfBirth": "1991-08-24",
+      "gender": "Female",
+      "context": "Bacterial vaginosis. Metronidazole gel, probiotic counseling, partner treatment discussion."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Reynolds: Good morning, Amanda. It’s good to see you. I see from your chart you’re 34 now, happy belated birthday. How have you been feeling?\n\nAmanda Green: Thanks, Dr. Reynolds. Generally, I’ve been okay, but honestly, I’m here today because of some issues down there. It’s been bothering me for about a week.\n\nDr. Reynolds: I understand. Can you describe the symptoms you're experiencing? Is there any pain, itching, or changes in discharge?\n\nAmanda Green: Yeah, mostly the discharge. It’s heavier than usual and it’s this thin, grayish-white color. But the worst part is the smell. It’s embarrassing to say, but it smells really fishy. I noticed it gets worse after sex with my boyfriend.\n\nDr. Reynolds: Thank you for being open about that, Amanda. That specific description—a thin, grayish discharge with a fishy odor, especially after intercourse—is actually a very common presentation. Have you noticed any significant itching or burning?\n\nAmanda Green: A little bit of itching, but mostly just the discharge and the smell. It’s making me really self-conscious.\n\nDr. Reynolds: I can imagine that's uncomfortable. Based on your description, it sounds like it could be Bacterial Vaginosis, or BV. It's an imbalance of the natural bacteria in the vagina. I’d like to do a quick pelvic exam and take a swab to confirm. We can check the pH and look at the sample under the microscope right here in the lab. Does that sound okay?\n\nAmanda Green: Yes, please. I just want to get it fixed.\n\n[TRANSITION: Examination and Lab Work Completed]\n\nDr. Reynolds: Okay, Amanda, we’re all done with the exam. I looked at the sample under the microscope. We look for something called 'clue cells,' which are vaginal cells covered in bacteria. I did see those present, and the pH balance is a bit higher than normal, around 5.0. This confirms that you have Bacterial Vaginosis.\n\nAmanda Green: Ugh, okay. Is that an STD? Did I get this from my boyfriend?\n\nDr. Reynolds: That is a very common question. BV is not considered a sexually transmitted infection in the traditional sense. It's caused by an overgrowth of bacteria that are normally present in the vagina, specifically when the healthy Lactobacilli bacteria get outnumbered by other bacteria like Gardnerella. Sexual activity can alter the pH balance and trigger it, but you didn't catch it from him.\n\nAmanda Green: Okay, that’s a relief. So, does he need to take medicine?\n\nDr. Reynolds: Generally, no. Studies haven't shown that treating male partners prevents the recurrence of BV in women. So, we don't treat the partner unless you were in a relationship with a female partner, in which case we might discuss it. For now, we just need to treat you.\n\nAmanda Green: Okay, what do I need to take?\n\nDr. Reynolds: I’m going to prescribe Metronidazole vaginal gel 0.75%. It’s a tube of gel that you insert into the vagina. You’ll use one applicatorful at bedtime for 5 consecutive nights.\n\nAmanda Green: Is that better than the pills? I hate swallowing big pills.\n\nDr. Reynolds: The gel is just as effective as the oral antibiotics for BV and tends to have fewer systemic side effects, like nausea. However, even with the gel, we advise you to avoid alcohol during the treatment and for 24 hours after. Metronidazole can sometimes react with alcohol and make you feel pretty sick, causing vomiting or flushing.\n\nAmanda Green: Got it. No wine for a week. Anything else I can do to stop this from coming back?\n\nDr. Reynolds: Since BV is related to a lack of 'good' bacteria, we can talk about probiotics. While the data is mixed, some patients find it helpful to take an oral probiotic supplement containing Lactobacillus strains, or simply eating yogurt with live active cultures. It might help repopulate the healthy flora.\n\nAmanda Green: I can definitely add more yogurt to my diet.\n\nDr. Reynolds: Also, avoid douching. I know the odor makes you want to wash inside, but douching actually flushes out the good bacteria and makes BV worse. Just use warm water and mild, unscented soap on the outside.\n\nAmanda Green: Okay, I’ll pick up the prescription today. Thanks, Dr. Reynolds.\n\nDr. Reynolds: You're welcome, Amanda. If symptoms don't clear up within a few days after finishing the gel, give the office a call.",
+    "expectedEntities": {
+      "drugs": [
+        "Metronidazole vaginal gel 0.75%",
+        "Metronidazole",
+        "Probiotics",
+        "Lactobacillus",
+        "Antibiotics"
+      ],
+      "conditions": [
+        "Bacterial vaginosis",
+        "Vaginal discharge",
+        "Vaginal itching",
+        "Elevated vaginal pH"
+      ]
+    }
+  },
+  {
+    "id": "joseph-roberts__soap",
+    "patient": {
+      "firstName": "Joseph",
+      "lastName": "Roberts",
+      "dateOfBirth": "1975-12-26",
+      "gender": "Male",
+      "context": "Diverticulitis. Ciprofloxacin and metronidazole, clear liquid diet progressing, colonoscopy after resolution."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Joseph. Good to see you, though I wish it were under better circumstances. I see you're on the schedule for abdominal pain today?\n\nJoseph Roberts: Yeah, hi Dr. Evans. It's been a rough couple of days. I started getting this sharp pain on my left side, down low, about three days ago. I thought it was just gas at first, but it hasn't gone away and actually got worse last night.\n\nDr. Evans: I'm sorry to hear that. On a scale of one to ten, how would you rate the pain right now? And point exactly to where it hurts.\n\nJoseph Roberts: It's right here, lower left side. Right now, probably a 5 or 6, but if I move around too much or cough, it shoots up to an 8.\n\nDr. Evans: Okay, noted. Have you had any fevers or chills? Any nausea or vomiting?\n\nJoseph Roberts: I felt feverish last night. I took my temperature this morning and it was 100.2. A little bit of nausea, but I haven't thrown up. My appetite is completely gone though.\n\nDr. Evans: And how have your bowel movements been? Any diarrhea, constipation, or blood in the stool?\n\nJoseph Roberts: A little constipated, actually. No blood that I noticed.\n\nDr. Evans: Alright, Joseph. I'm going to take a listen to your heart and lungs, and then I need to examine your abdomen. Just breathe normally for me.\n\n[Pause for examination]\n\nDr. Evans: Lungs are clear, heart sounds regular. Now, I'm going to press on your stomach. Tell me where it hurts. Starting on the right side... okay here?\n\nJoseph Roberts: No, that's fine.\n\nDr. Evans: Okay, moving to the left lower quadrant...\n\nJoseph Roberts: Ouch! Yeah, that's the spot. That really hurts.\n\nDr. Evans: Okay, I'm stopping. There is definite localized tenderness in the left lower quadrant, and a bit of guarding, but no rebound tenderness, which is good. Given your age—you just turned 50, right?—and these classic symptoms of fever and LLQ pain, this presents very much like acute diverticulitis.\n\nJoseph Roberts: Diverticulitis? That's the pockets in the intestine, right? My dad had that.\n\nDr. Evans: Exactly. It happens when small pouches in the colon, called diverticula, become inflamed or infected. We could send you for a CT scan to confirm, but your presentation is very textbook for uncomplicated diverticulitis. I think we can manage this conservatively with antibiotics and diet changes without sending you to the ER, provided you can keep liquids down.\n\nJoseph Roberts: I can drink liquids fine. I just don't feel like eating food.\n\nDr. Evans: That's actually exactly what we want right now. We need to give your bowel a rest. I'm going to prescribe two antibiotics. The first is Ciprofloxacin, 500 mg, which you'll take twice a day. The second is Metronidazole, also known as Flagyl, 500 mg, every 8 hours. You need to take these for a full 10 days.\n\nJoseph Roberts: Okay, Cipro and Metronidazole. I can do that. What about food?\n\nDr. Evans: For the next 2 to 3 days, I need you on a strict clear liquid diet. That means water, broth, Jell-O, tea, or Gatorade. Nothing red-colored, just to be safe so we don't confuse it with blood in the stool later. No solid foods at all until the pain decreases significantly.\n\nJoseph Roberts: Okay. Broth and Jell-O it is. When can I eat real food?\n\nDr. Evans: Once the pain settles down and you have no fever, usually day 3 or 4, you can advance to a \"low residue\" diet. Think white toast, eggs, white rice—bland, soft foods. Do not jump straight into high fiber like salads or nuts yet; that will aggravate it. We will transition to high fiber only after you are fully healed.\n\nJoseph Roberts: Understood.\n\nDr. Evans: One last important thing, Joseph. Since you're 50, you were due for a colorectal cancer screening anyway. We cannot do a colonoscopy while you have an acute infection because of the risk of perforation. However, once this resolves, about 6 to 8 weeks from now, we absolutely must schedule a colonoscopy to rule out other issues and check the extent of the diverticulosis.\n\nJoseph Roberts: Okay. I'll focus on getting better first, then we'll book the scope.\n\nDr. Evans: Perfect. If the pain gets worse, you spike a high fever over 101, or see blood, go to the ER immediately. Otherwise, call the office in 3 days to let us know how you're feeling.",
+    "expectedEntities": {
+      "drugs": [
+        "Ciprofloxacin",
+        "Metronidazole",
+        "Flagyl"
+      ],
+      "conditions": [
+        "Acute diverticulitis",
+        "Fever",
+        "Nausea",
+        "Constipation",
+        "Left lower quadrant abdominal pain",
+        "Diverticulosis"
+      ]
+    }
+  },
+  {
+    "id": "christina-collins__soap",
+    "patient": {
+      "firstName": "Christina",
+      "lastName": "Collins",
+      "dateOfBirth": "1987-04-17",
+      "gender": "Female",
+      "context": "Restless legs syndrome. Ropinirole at bedtime, iron studies, sleep hygiene counseling."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Christina. It is good to see you again. I see from your chart you celebrated your 38th birthday last month—happy belated birthday.\n\nChristina Collins: Thank you, Dr. Evans. I wish I felt 38. Lately, I’ve been feeling about 80 because I’m just so tired.\n\nDr. Evans: I'm sorry to hear that. Let's look at your vitals. Your blood pressure is 118/76, pulse is 72, and temperature is 98.6. Everything looks stable there. Tell me more about this fatigue. Are you having trouble falling asleep or staying asleep?\n\nChristina Collins: It’s the falling asleep part. But it’s not anxiety or stress. It’s my legs. Every time I lie down in bed, I get this awful sensation deep inside my calves. It’s hard to describe... it’s like an itch I can’t scratch, or like soda water bubbling in my veins. A creepy-crawly feeling.\n\nDr. Evans: That is a very specific description. Does this sensation happen at other times, or mostly at night?\n\nChristina Collins: It’s definitely worse at night. Sometimes I feel it a little if I’ve been sitting in a long meeting at work or driving for a long time, but as soon as I get into bed, it flares up.\n\nDr. Evans: And what do you do to make it stop?\n\nChristina Collins: I have to move. If I get up and walk around the bedroom or stretch my legs, the feeling goes away almost instantly. But the second I lie back down, it starts creeping back in. It’s a vicious cycle. I tried taking Melatonin and Tylenol PM last week, but they didn't help the leg sensation at all, and the antihistamine actually seemed to make it worse.\n\nDr. Evans: That is actually very common. Antihistamines like the diphenhydramine in Tylenol PM can actually aggravate the condition I suspect you have. Based on your history—the urge to move, the worsening at night, and the relief with movement—this sounds like a classic case of Restless Legs Syndrome, or RLS.\n\nChristina Collins: RLS? Is that serious? \n\nDr. Evans: It is a neurological condition, but it is treatable. It's not dangerous in the sense of life-threatening, but it severely impacts quality of life because of the sleep deprivation. I want to do a quick physical exam of your legs first.\n\n[Dr. Evans examines the patient's legs]\n\nDr. Evans: Okay, your pulses are strong, 2+ bilaterally. No edema, no sign of varicose veins, and your reflexes are normal. The exam is reassuringly normal, which is typical for RLS. Now, before we treat it, we need to look for underlying causes. The most common trigger for RLS in women your age is iron deficiency.\n\nChristina Collins: I haven't been anemic in the past, but I have been feeling run down.\n\nDr. Evans: You can have normal hemoglobin but low iron stores, specifically Ferritin. If your Ferritin is below 50 or 75, that can trigger these symptoms. I’m going to order a CBC and a Ferritin level check today. \n\nChristina Collins: Okay, that makes sense. Is there anything I can take for the symptoms now? I really need to sleep.\n\nDr. Evans: Yes. I am going to prescribe a medication called Ropinirole. It's a dopamine agonist. We will start with a very low dose, 0.25 mg, taken once daily about 1 to 2 hours before bedtime. It helps calm those nerve impulses.\n\nChristina Collins: Are there side effects?\n\nDr. Evans: The most common are nausea, dizziness, or drowsiness—which is actually helpful at bedtime. Rarely, it can cause impulse control issues, but at this low dose, that is unlikely. We also need to discuss sleep hygiene. I want you to cut out caffeine completely after 12:00 PM. Alcohol and tobacco can also trigger RLS, so avoid those near bedtime.\n\nChristina Collins: I usually have a glass of wine with dinner, so I’ll cut that out for a while. \n\nDr. Evans: That would be wise. Also, moderate exercise helps, but heavy workouts right before bed can make it worse. Try a warm bath or a heating pad on your legs before you sleep.\n\nChristina Collins: I can do that. So, I'll go to the lab for the iron check now?\n\nDr. Evans: Yes. If the Ferritin comes back low, I will call you to add an iron supplement to your regimen. For now, start the Ropinirole tonight and let's touch base in 4 weeks to see how you are sleeping.\n\nChristina Collins: Thank you, Dr. Evans. I appreciate it.\n\nDr. Evans: You're welcome, Christina. I hope you get some rest.",
+    "expectedEntities": {
+      "drugs": [
+        "Melatonin",
+        "Tylenol PM",
+        "Diphenhydramine",
+        "Ropinirole",
+        "Iron supplements",
+        "Caffeine",
+        "Alcohol"
+      ],
+      "conditions": [
+        "Restless Legs Syndrome",
+        "RLS",
+        "Insomnia",
+        "Fatigue",
+        "Iron deficiency",
+        "Anemia"
+      ]
+    }
+  },
+  {
+    "id": "mark-morgan__soap",
+    "patient": {
+      "firstName": "Mark",
+      "lastName": "Morgan",
+      "dateOfBirth": "1970-06-29",
+      "gender": "Male",
+      "context": "Alcohol use disorder. Naltrexone, addiction counseling referral, liver function monitoring."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Mark. Good to see you. I see we are a few weeks past your 55th birthday, so happy belated birthday. How have things been going since we last spoke?\n\nMark Morgan: Thanks, Dr. Evans. To be honest, it’s been a rough month. I know we talked about cutting back on the drinking during the last physical, but I haven't been able to stick to it.\n\nDr. Evans: I appreciate you being open about that. When you say you haven't been able to stick to it, what does your daily intake look like right now?\n\nMark Morgan: It's pretty much every day. I'm drinking about a pint of vodka a night, sometimes a bit more on the weekends. I try to stop, but by 5:00 PM, the urge is just overpowering.\n\nDr. Evans: I understand. That craving is a very real chemical response. When you go without it, say in the mornings or early afternoons, do you notice any physical symptoms? Shaking, sweating, nausea?\n\nMark Morgan: Yeah, my hands get shaky in the morning. It's embarrassing at work—I have to hold my coffee cup with two hands until about noon. I feel anxious and sweaty until I get home.\n\nDr. Evans: Okay, Mark. Those are signs of physical withdrawal. Based on your intake and those symptoms, we are looking at Alcohol Use Disorder. I want to check your vitals quickly. Your nurse recorded your blood pressure at 158/96 today, and your pulse is 92. That is significantly elevated compared to your baseline, likely due to the alcohol and withdrawal stress.\n\nMark Morgan: I figured it was high. I can feel my heart pounding sometimes.\n\nDr. Evans: I’m going to do a quick abdominal exam. If you could just lie back for a moment. I'm going to press on your right side under the ribs.\n\n[Doctor performs physical exam]\n\nDr. Evans: Deep breath in... and out. Okay, I’m noting some hepatomegaly—your liver is slightly enlarged, and there is tenderness in the right upper quadrant. You can sit up now.\n\nMark Morgan: Is that bad?\n\nDr. Evans: It suggests your liver is inflamed. We need to monitor this closely. I’m ordering a Comprehensive Metabolic Panel immediately to check your liver function tests, specifically the AST and ALT enzymes. We need to see how much strain the organ is under.\n\nMark Morgan: Okay. What can we do about the cravings? I can't do this on willpower alone.\n\nDr. Evans: I agree. I want to start you on a medication called Naltrexone. It’s an opioid antagonist. Essentially, it blocks the euphoric effects of alcohol and helps reduce those heavy cravings you feel at 5:00 PM.\n\nMark Morgan: Is that the one that makes you sick if you drink?\n\nDr. Evans: No, that is Disulfiram. Naltrexone doesn't make you ill, but it makes drinking less rewarding. I want to start you on 50 mg daily. However, because it is metabolized by the liver, I need to see those lab results first to ensure it's safe to start.\n\nMark Morgan: That sounds like a plan.\n\nDr. Evans: Medication is only one part of the puzzle, Mark. I am also putting in a referral for addiction counseling. I want you to see a specialist for Cognitive Behavioral Therapy to work on the behavioral triggers. Are you open to that?\n\nMark Morgan: Yeah, my wife has been begging me to get help. I'll go.\n\nDr. Evans: Excellent. So, the plan is: Lab work downstairs right now. If the liver enzymes are acceptable, I’ll call the Naltrexone 50 mg into your pharmacy this afternoon. We will schedule the counseling, and I want to see you back in two weeks to recheck that blood pressure and the liver tenderness.\n\nMark Morgan: Thanks, Doc. I'm ready to try.",
+    "expectedEntities": {
+      "drugs": [
+        "Naltrexone",
+        "Disulfiram"
+      ],
+      "conditions": [
+        "Alcohol Use Disorder",
+        "Physical withdrawal",
+        "Tremors",
+        "Hypertension",
+        "Hepatomegaly",
+        "Liver inflammation"
+      ]
+    }
+  },
+  {
+    "id": "amber-cox__soap",
+    "patient": {
+      "firstName": "Amber",
+      "lastName": "Cox",
+      "gender": "Female",
+      "dateOfBirth": "1987-12-03",
+      "context": "Uterine fibroids. NSAIDs for menorrhagia, hormonal therapy options, gynecology referral."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Amber. Good to see you again. I have your chart open here, but please confirm your full name and date of birth for the record.\n\nAmber Cox: Hi Dr. Evans. It's Amber Cox, December 3rd, 1987.\n\nDr. Evans: Perfect, thank you. You're 38 now, correct?\n\nAmber Cox: Yes, that's right.\n\nDr. Evans: So, I see you're here today to follow up on the pelvic ultrasound we ordered last week and to discuss the heavy menstrual bleeding you've been experiencing. How have things been since our last visit?\n\nAmber Cox: Honestly, not great. The last cycle was really rough. I was changing a super plus tampon every two hours for the first three days. The cramping was intense, too. I missed a day of work because I just couldn't get out of bed.\n\nDr. Evans: I'm sorry to hear it's impacting your daily life that much. Are you still taking the Ibuprofen we discussed?\n\nAmber Cox: Yes, I am. I've been taking about 600 mg every six hours or so when the period starts, but it barely touches the pain, and it doesn't seem to slow the bleeding down much anymore.\n\nDr. Evans: Okay, noted. Let's go over these ultrasound results. The imaging confirms what we suspected. You have multiple uterine fibroids. The largest one is an intramural fibroid measuring about 4.5 centimeters, and there are a couple of smaller submucosal ones. This explains the menorrhagia—the heavy bleeding—and the dysmenorrhea, or painful cramping.\n\nAmber Cox: I figured it was something like that given my family history. My mom had them too. So, what do we do now? Do I need surgery?\n\nDr. Evans: Surgery is an option, specifically a myomectomy or even a hysterectomy if you were done with childbearing and symptoms were severe enough, but usually, we try medical management first. Since the NSAIDs like Ibuprofen aren't cutting it, the next step is typically hormonal therapy to help regulate the lining of the uterus and shrink the fibroids slightly.\n\nAmber Cox: Like birth control?\n\nDr. Evans: Exactly. We have a few options. We could try a combined oral contraceptive pill. Another very effective option for fibroids is the Mirena IUD. It releases levonorgestrel directly into the uterus, which thins the lining and often significantly reduces bleeding.\n\nAmber Cox: I'm a little nervous about an IUD. I think I'd prefer to start with the pill if that's an option.\n\nDr. Evans: That is absolutely a reasonable starting point. I can start you on Lo Loestrin Fe. It's a low-dose combination pill. It should help lighter the periods and reduce the cramping. However, because of the size and location of the fibroids, I also want to refer you to a gynecologist, Dr. Patel. She specializes in fibroids. If the pill doesn't resolve the symptoms in 3 months, or if the fibroids grow, she can discuss surgical options like a myomectomy or uterine artery embolization.\n\nAmber Cox: Okay, that sounds like a good plan. I'll try the Lo Loestrin.\n\nDr. Evans: Great. I'm also looking at your recent blood work. Your hemoglobin is 10.8, which indicates mild anemia, likely due to the blood loss. I want you to start taking an iron supplement as well. Ferrous sulfate 325 mg, once a day with orange juice to help absorption.\n\nAmber Cox: Okay, I can do that.\n\nDr. Evans: Let's check your vitals quickly before you go. BP is 118/76, heart rate 74. Lungs sound clear. Abdomen is soft, slightly tender in the lower quadrants on palpation.\n\nAmber Cox: Yeah, it's a little sore there.\n\nDr. Evans: Alright, Amber. I've sent the prescription for Lo Loestrin Fe and the Ferrous sulfate to your pharmacy. My front desk will coordinate the referral to Dr. Patel. Please call us if the bleeding becomes severe—soaking a pad in less than an hour—or if you feel lightheaded.\n\nAmber Cox: I will. Thanks, Dr. Evans.\n\nDr. Evans: Take care, Amber. We'll see you in 3 months for a check-up.",
+    "expectedEntities": {
+      "drugs": [
+        "Ibuprofen",
+        "Mirena",
+        "Levonorgestrel",
+        "Lo Loestrin Fe",
+        "Ferrous sulfate",
+        "Iron supplement"
+      ],
+      "conditions": [
+        "Uterine fibroids",
+        "Intramural fibroid",
+        "Submucosal fibroids",
+        "Menorrhagia",
+        "Dysmenorrhea",
+        "Mild anemia"
+      ]
+    }
+  },
+  {
+    "id": "kayla-wood__soap",
+    "patient": {
+      "firstName": "Kayla",
+      "lastName": "Wood",
+      "dateOfBirth": "1990-10-15",
+      "gender": "Female",
+      "context": "Lupus erythematosus. Hydroxychloroquine, prednisone taper, rheumatology follow-up, sun protection."
+    },
+    "templateId": "soap",
+    "transcript": "Dr. Evans: Good morning, Kayla. It’s good to see you again. How have you been holding up since our last appointment?\n\nKayla Wood: Hi, Dr. Evans. Honestly, I'm doing a bit better than last month. The fatigue isn't as crushing as it was, but I'm still feeling pretty wiped out by the end of the work day.\n\nDr. Evans: That's understandable. We are still getting things under control. I see the nurse took your vitals. Blood pressure is 118 over 76, heart rate is 72, and temperature is 98.4. Your weight is stable at 145 pounds. Now, let's talk about the medication. You were on the 20 milligram dose of Prednisone when you left last time. Where are you in the taper now?\n\nKayla Wood: I stepped down to 10 milligrams daily about five days ago. \n\nDr. Evans: Okay, and how did your body react to the drop?\n\nKayla Wood: I noticed a little more stiffness in my hands, especially in the mornings. It takes me about an hour to get my fingers moving properly. And I've been having some trouble sleeping, which I think is the steroids.\n\nDr. Evans: Insomnia is a very common side effect of Prednisone, unfortunately. Try taking it as early in the morning as possible with food. Are you still taking the Hydroxychloroquine?\n\nKayla Wood: Yes, the Plaquenil. I take 200 milligrams twice a day. I haven't missed a dose.\n\nDr. Evans: Excellent. Adherence to Plaquenil is crucial for long-term management of your Lupus. Have you had your eye exam recently? We need to monitor for retinal toxicity.\n\nKayla Wood: I actually saw the ophthalmologist last week. She said everything looks clear.\n\nDr. Evans: Glad to hear it. Now, looking at your skin, I notice a faint redness across your cheeks. Have you been out in the sun?\n\nKayla Wood: Yeah, that's the other thing. I went to my nephew's soccer game on Saturday. I wore a hat, but I think the UV index was just too high. By that evening, the butterfly rash flared up a bit, and I felt almost flu-ish.\n\nDr. Evans: Photosensitivity is a major trigger for SLE flares. You have to be incredibly aggressive with sun protection. Broad-spectrum sunscreen, SPF 50 or higher, reapply every two hours, and UV-protective clothing. The hat is good, but sometimes it's not enough if there is reflection off the ground.\n\nKayla Wood: I know, I slipped up. I'll be more careful.\n\nDr. Evans: Let's do a quick exam. I'm going to listen to your heart and lungs.\n\n(Sound of stethoscope movement)\n\nDr. Evans: Deep breath... and out. Lungs are clear to auscultation. Heart sounds represent regular rate and rhythm, no murmurs or rubs. Let me check your hands. Squeeze my fingers.\n\nKayla Wood: (Grunts slightly) My right wrist is a little tender.\n\nDr. Evans: I can feel some mild synovial thickening in the right wrist and the second and third MCP joints on the left hand. No frank swelling or heat, though. \n\nDr. Evans: Here is the plan. I want you to stay on the 10 milligrams of Prednisone for another week. If the joint stiffness improves, we will try dropping to 5 milligrams. If the pain gets worse, call the office. Continue the Hydroxychloroquine 200 milligrams twice daily. For the joint pain, are you taking anything else?\n\nKayla Wood: Just Ibuprofen occasionally. Maybe 400 milligrams if it's really bad.\n\nDr. Evans: That's fine for now, just take it with food to protect your stomach. I'm ordering a CBC, a metabolic panel to check your kidney function, and inflammatory markers—ESR and CRP. I want to make sure your kidneys are handling everything okay, given the Lupus.\n\nKayla Wood: Okay. Do I go to the lab downstairs?\n\nDr. Evans: Yes. We'll review the results in the portal, and I'll see you back in six weeks unless you flare up before then.\n\nKayla Wood: Sounds good. Thanks, Dr. Evans.",
+    "expectedEntities": {
+      "drugs": [
+        "Prednisone",
+        "Hydroxychloroquine",
+        "Plaquenil",
+        "Ibuprofen"
+      ],
+      "conditions": [
+        "Lupus erythematosus",
+        "SLE",
+        "Fatigue",
+        "Joint stiffness",
+        "Insomnia",
+        "Retinal toxicity",
+        "Malar rash",
+        "Butterfly rash",
+        "Photosensitivity",
+        "Synovial thickening"
+      ]
+    }
+  }
+]

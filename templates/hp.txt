@@ -1,0 +1,74 @@
+**Patient Information**
+Date of Encounter: [Date]
+Chief Complaint: [Primary reason for visit]
+
+**History of Present Illness**
+[Comprehensive narrative of current problem including: onset, duration, character, location, radiation, severity (1-10), timing, context, modifying factors, associated symptoms, previous treatments, and patient's understanding]
+
+**Past Medical History**
+[All chronic conditions, prior hospitalizations, surgeries, injuries, and significant illnesses with dates]
+
+**Medications**
+[Complete list with drug name, dose, route, frequency, and indication]
+
+**Allergies**
+[Drug allergies with specific reactions; environmental and food allergies if relevant]
+
+**Social History**
+Tobacco: [Type, amount, duration, pack-years]
+Alcohol: [Type, amount, frequency, CAGE if indicated]
+Recreational drugs: [Type, route, frequency, last use]
+Occupation: [Current and past relevant occupations]
+Living situation: [Home environment, support system]
+Exercise: [Type, frequency, duration]
+Diet: [Typical diet, restrictions]
+
+**Family History**
+[Detailed family history including age and health of parents, siblings, children; focus on conditions relevant to patient's presentation: cardiac disease, cancer, diabetes, hypertension, psychiatric conditions, genetic disorders]
+
+**Review of Systems**
+Constitutional: [Fever, chills, night sweats, weight changes, fatigue, malaise]
+HEENT: [Headaches, vision changes, hearing loss, tinnitus, epistaxis, sinus problems, dental issues, sore throat]
+Cardiovascular: [Chest pain, palpitations, orthopnea, PND, edema, claudication, syncope]
+Respiratory: [Dyspnea, cough, sputum, hemoptysis, wheezing, sleep apnea]
+Gastrointestinal: [Appetite, nausea, vomiting, dysphagia, heartburn, abdominal pain, bowel habits, melena, hematochezia]
+Genitourinary: [Dysuria, frequency, urgency, hematuria, nocturia, incontinence, sexual function; for females: LMP, contraception, pregnancies, menstrual history]
+Musculoskeletal: [Joint pain, stiffness, swelling, weakness, back pain, trauma, limitations in ADLs]
+Skin: [Rashes, lesions, changes in moles, pruritus, wounds, bruising]
+Neurological: [Seizures, stroke, weakness, numbness, tremor, gait disturbance, memory problems]
+Psychiatric: [Mood, anxiety, depression, sleep disturbances, concentration, suicidal ideation]
+Endocrine: [Polyuria, polydipsia, heat/cold intolerance, thyroid disease]
+Hematologic: [Anemia, bleeding tendencies, lymphadenopathy, transfusions]
+
+**Physical Examination**
+**Vital Signs:**
+BP: [Include both arms if indicated]
+HR: [Rate and rhythm]
+Temp: [Route]
+RR: [Rate and pattern]
+SpO2: [On room air or supplemental O2]
+Height: [cm/inches]
+Weight: [kg/lbs]
+BMI: [calculated]
+
+General: [Appearance, distress, nutritional status, grooming]
+HEENT: [Head, eyes, ears, nose, throat - including fundoscopic, PERRLA, TMs, oropharynx]
+Neck: [Thyroid, JVP, carotids, lymph nodes, ROM]
+Cardiovascular: [Rate, rhythm, murmurs, rubs, gallops, peripheral pulses, edema]
+Respiratory: [Effort, breath sounds, symmetry, percussion, tactile fremitus]
+Abdominal: [Bowel sounds, soft/tender, masses, hepatosplenomegaly, rebound, guarding]
+Musculoskeletal: [Joints, ROM, deformities, gait, spine]
+Skin: [Color, temperature, turgor, lesions, wounds]
+Neurological: [Mental status, cranial nerves, motor, sensory, reflexes, coordination, gait]
+Psychiatric: [Appearance, behavior, mood, affect, thought process, thought content, insight, judgment]
+
+**Assessment and Plan**
+[Synthesized assessment with differential diagnosis, clinical reasoning, and comprehensive plan organized by problem]
+
+Problem #1: [Diagnosis or problem]
+   Assessment: [Clinical reasoning]
+   Plan: [Specific interventions, medications, tests, referrals, follow-up]
+
+Problem #2: [If applicable]
+   Assessment: [Clinical reasoning]
+   Plan: [Specific interventions]

@@ -1,0 +1,66 @@
+**Subjective**
+**Chief Complaint**
+[Patient's primary reason for visit]
+
+**History of Present Illness**
+[Detailed description of current problem including onset, duration, severity, location, quality, timing, context, modifying factors, and associated symptoms]
+
+**Review of Systems**
+(Only include systems that were discussed. If not mentioned, omit this section entirely)
+Constitutional: [Fever, chills, fatigue, weight changes]
+HEENT: [Vision, hearing, throat, nasal symptoms]
+Cardiovascular: [Chest pain, palpitations, edema]
+Respiratory: [Shortness of breath, cough, wheezing]
+Gastrointestinal: [Nausea, vomiting, diarrhea, abdominal pain]
+Genitourinary: [Urinary symptoms, menstrual history]
+Musculoskeletal: [Joint pain, muscle weakness, mobility issues]
+Neurological: [Headache, dizziness, numbness, weakness]
+Psychiatric: [Mood, anxiety, sleep]
+Skin: [Rashes, lesions, wounds]
+
+**Past Medical History**
+[Chronic conditions and prior diagnoses]
+(If not discussed, state "Not discussed")
+
+**Medications**
+[Current medications with dosages]
+(If not discussed, state "Not discussed")
+
+**Allergies**
+[Drug allergies and reactions]
+(If not discussed, state "No known drug allergies discussed" or "Not discussed")
+
+**Social History**
+Tobacco: [Usage details]
+Alcohol: [Usage details]
+Recreational drugs: [Usage details]
+Occupation: [Job details]
+(Only include items that were mentioned)
+
+**Family History**
+[Relevant family medical history]
+(If not discussed, state "Not discussed")
+
+**Objective**
+**Physical Examination**
+**Vital Signs:**
+BP: [Blood pressure]
+HR: [Heart rate]
+Temp: [Temperature]
+RR: [Respiratory rate]
+SpO2: [Oxygen saturation]
+(Only include vitals that were documented)
+
+General: [Overall appearance and condition]
+(Only document examination findings that were explicitly mentioned. If no physical exam was performed, state "Physical examination not documented")
+
+**Assessment**
+[Primary diagnosis or clinical impression]
+[Secondary diagnoses if applicable]
+
+**Plan**
+1. [Diagnostic workup - labs, imaging, referrals]
+2. [Therapeutic interventions - medications, procedures]
+3. [Patient education and counseling provided]
+4. [Follow-up instructions]
+(Only include plan elements that were specifically discussed)

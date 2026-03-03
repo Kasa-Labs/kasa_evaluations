@@ -1,0 +1,27 @@
+{
+  "name": "kasa-eval",
+  "version": "1.0.0",
+  "description": "Evaluation pipeline for Kasa medical note generation",
+  "type": "module",
+  "scripts": {
+    "generate-data": "tsx scripts/generate-test-data.ts",
+    "build-tests": "tsx scripts/build-promptfoo-tests.ts",
+    "eval": "npx promptfoo eval",
+    "eval:view": "npx promptfoo view",
+    "eval:openai": "npx promptfoo eval --providers openai:chat:gpt-4o,openai:chat:gpt-4o-mini",
+    "eval:anthropic": "npx promptfoo eval --providers anthropic:messages:claude-sonnet-4-20250514",
+    "eval:local": "npx promptfoo eval --providers ollama:chat:llama3.1,ollama:chat:mistral"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "better-sqlite3": "^12.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
