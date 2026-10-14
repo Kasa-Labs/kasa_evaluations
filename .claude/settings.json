@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "kasa": {
+      "source": { "source": "github", "repo": "Kasa-Labs/kasa-claude" }
+    }
+  },
+  "enabledPlugins": {
+    "kasa@kasa": true
+  }
+}
